@@ -1,0 +1,401 @@
+text,label
+Urgent: Fuel supply interruption caused Solar Array 4 to be unavailable for 212 MW from HE15 on 2026-04-06; how should we log this? Let us know if you need more data.,outage_reporting
+"To whom it may concern, Settlement for WESTERN HUB on 2026-06-02 used an incorrect price of $1450.98/MWh in HE24; the posted LMP was different. Kindly correct and rebill. Appreciate a quick response.",settlement_dispute
+"Team, We believe the August reconciliation statement over-allocated uplift to Chesapeake Storage Co. Our calculation differs by $293.94 and we want to file a dispute. Let us know if you need more data.",settlement_dispute
+Urgent: The billing line for regulation market credits is missing from invoice INV-835550; Lakeshore Municipal Utility provided 221 MW of regulation during May. Please advise.,billing_invoice
+"To whom it may concern, The billing line for regulation market credits is missing from invoice INV-290497; Blue Ridge Power LLC provided 625 MW of regulation during August. Appreciate a quick response.",billing_invoice
+The non-performance charge for Battery Block A during the performance assessment interval on 2026-01-19 HE3 looks inconsistent with our telemetry.,capacity_market
+"Good morning, Our peak market activity credit requirement for May seems to include exposure from a terminated position; it is overstated by $790,000.32. This is impacting our month-end close.",credit_collateral
+"Urgent: Our peak market activity credit requirement for June seems to include exposure from a terminated position; it is overstated by $419,000.90. Let us know if you need more data.",credit_collateral
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-09-06 with a host key mismatch. Appreciate a quick response.",system_access
+"Following up on our call, The guaranty from our parent company for Ohio Valley Generation needs to be amended to $932.16; which credit form should we use? Appreciate a quick response.",credit_collateral
+"Hi, Our peak market activity credit requirement for June seems to include exposure from a terminated position; it is overstated by $856.61. Let us know if you need more data.",credit_collateral
+"To whom it may concern, The guaranty from our parent company for Allegheny Peak Energy needs to be amended to $640.51; which credit form should we use? Thanks.",credit_collateral
+"Team, The non-performance charge for Unit 1 during the performance assessment interval on 2026-04-16 HE1 looks inconsistent with our telemetry. Let us know if you need more data.",capacity_market
+"Following up on our call, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Appreciate a quick response.",capacity_market
+"Team, We believe the January reconciliation statement over-allocated uplift to Ohio Valley Generation. Our calculation differs by $786,000.18 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+We are planning a 476 MW deactivation of Battery Block A next year and need to know the notice requirements for outage scheduling. Let us know if you need more data.,outage_reporting
+"Hello Market Ops team, Our SFTP job for downloading settlement statements started failing on 2026-01-14 with a host key mismatch. Kind regards.",system_access
+"Good morning, The guaranty from our parent company for Keystone Renewables Inc needs to be amended to $618.70; which credit form should we use? Appreciate a quick response.",credit_collateral
+"We believe the April reconciliation statement over-allocated uplift to Allegheny Peak Energy. Our calculation differs by $648,000.54 and we want to file a dispute. Appreciate a quick response.",settlement_dispute
+"Hi, Our generator's net output was double counted on 2026-02-03 HE19 because the auxiliary load meter and the gross meter were both mapped to Unit 1. This is impacting our month-end close.",meter_data_correction
+"Good morning, The guaranty from our parent company for Northern Neck Electric Coop needs to be amended to $378.60; which credit form should we use? Please advise.",credit_collateral
+"Good morning, Our peak market activity credit requirement for September seems to include exposure from a terminated position; it is overstated by $497,000.17. Thanks.",credit_collateral
+"Good morning, The non-performance charge for Unit 1 during the performance assessment interval on 2026-02-01 HE16 looks inconsistent with our telemetry. This is impacting our month-end close.",capacity_market
+"Following up on our call, Settlement for SUNBURY 500KV on 2026-04-14 used an incorrect price of $960.61/MWh in HE16; the posted LMP was different. Kindly correct and rebill. Kind regards.",settlement_dispute
+"Hi, The guaranty from our parent company for Lakeshore Municipal Utility needs to be amended to $300.70; which credit form should we use?",credit_collateral
+"Team, We believe the October reconciliation statement over-allocated uplift to Keystone Renewables Inc. Our calculation differs by $824,000.06 and we want to file a dispute.",settlement_dispute
+"Team, Fuel supply interruption caused CT-3 to be unavailable for 472 MW from HE23 on 2026-04-08; how should we log this? Thanks.",outage_reporting
+Our battery storage offer for Battery Block A on 2026-08-14 keeps failing because the state-of-charge parameters are flagged as out of range. Let us know if you need more data.,bid_offer_submission
+"Urgent: We received two invoices (INV-258923 and a duplicate) for August with the same charges of $403,000.77. Please void the duplicate. Thanks.",billing_invoice
+"Hi, We are planning a 428 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling.",outage_reporting
+"Team, Our generator's net output was double counted on 2026-06-09 HE11 because the auxiliary load meter and the gross meter were both mapped to Wind Farm Ph II.",meter_data_correction
+"Hi, We are planning a 455 MW deactivation of Wind Farm Ph II next year and need to know the notice requirements for outage scheduling.",outage_reporting
+"Following up on our call, We received two invoices (INV-435010 and a duplicate) for January with the same charges of $52,000.21. Please void the duplicate. This is impacting our month-end close.",billing_invoice
+We need to request a must-offer exception for Battery Block A for the next auction because of a planned deactivation. This is impacting our month-end close.,capacity_market
+"Team, Requesting to revise the eMTR values for Unit 2 for April; scaling factor was applied twice so reported energy is inflated by 14%. Kind regards.",meter_data_correction
+"Good morning, Our generator's net output was double counted on 2026-09-07 HE14 because the auxiliary load meter and the gross meter were both mapped to Unit 1.",meter_data_correction
+"Hi, Fuel supply interruption caused CT-3 to be unavailable for 427 MW from HE17 on 2026-07-21; how should we log this? Thanks.",outage_reporting
+"Hello Market Ops team, Our peak market activity credit requirement for October seems to include exposure from a terminated position; it is overstated by $724,000.96. Please advise.",credit_collateral
+"Hello Market Ops team, Fuel supply interruption caused Wind Farm Ph II to be unavailable for 588 MW from HE10 on 2026-08-18; how should we log this? Let us know if you need more data.",outage_reporting
+"Good morning, We received two invoices (INV-988737 and a duplicate) for July with the same charges of $52.19. Please void the duplicate. Let us know if you need more data.",billing_invoice
+"Team, Fuel supply interruption caused CT-3 to be unavailable for 332 MW from HE22 on 2026-03-14; how should we log this? Appreciate a quick response.",outage_reporting
+"Hello Market Ops team, Our battery storage offer for Unit 1 on 2026-01-02 keeps failing because the state-of-charge parameters are flagged as out of range. Thanks.",bid_offer_submission
+"Following up on our call, We need to request a must-offer exception for Solar Array 4 for the next auction because of a planned deactivation. Thanks.",capacity_market
+"Hi, Settlement for COMED HUB on 2026-06-22 used an incorrect price of $403.85/MWh in HE9; the posted LMP was different. Kindly correct and rebill. This is impacting our month-end close.",settlement_dispute
+"Team, Requesting to revise the eMTR values for CT-3 for March; scaling factor was applied twice so reported energy is inflated by 6%. Kind regards.",meter_data_correction
+"Following up on our call, The non-performance charge for Battery Block A during the performance assessment interval on 2026-05-04 HE12 looks inconsistent with our telemetry. Kind regards.",capacity_market
+"Following up on our call, Requesting to revise the eMTR values for Unit 2 for September; scaling factor was applied twice so reported energy is inflated by 33%.",meter_data_correction
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-07-05 with a host key mismatch. Let us know if you need more data.",system_access
+We are planning a 365 MW deactivation of Unit 1 next year and need to know the notice requirements for outage scheduling. Let us know if you need more data.,outage_reporting
+"Team, We are planning a 435 MW deactivation of Unit 1 next year and need to know the notice requirements for outage scheduling. Kind regards.",outage_reporting
+"Hello Market Ops team, We are planning a 31 MW deactivation of Unit 2 next year and need to know the notice requirements for outage scheduling. Thanks.",outage_reporting
+"Good morning, New employee J. Patel at Great Lakes Trading LP needs a token and role assignment for the capacity system before 2026-09-10. Thanks.",system_access
+"Hello Market Ops team, The billing line for regulation market credits is missing from invoice INV-206061; Tri-State Wind Partners provided 103 MW of regulation during January. Appreciate a quick response.",billing_invoice
+"Hello Market Ops team, The guaranty from our parent company for Northern Neck Electric Coop needs to be amended to $511,000.24; which credit form should we use? This is impacting our month-end close.",credit_collateral
+"Team, New employee L. Novak at Keystone Renewables Inc needs a token and role assignment for the capacity system before 2026-08-20. This is impacting our month-end close.",system_access
+"Our peak market activity credit requirement for August seems to include exposure from a terminated position; it is overstated by $866,000.22. Let us know if you need more data.",credit_collateral
+"Hello Market Ops team, Our SFTP job for downloading settlement statements started failing on 2026-07-02 with a host key mismatch. Thanks.",system_access
+"To whom it may concern, The non-performance charge for Unit 2 during the performance assessment interval on 2026-09-24 HE21 looks inconsistent with our telemetry.",capacity_market
+"Good morning, The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-06-11; we need the cost-based offer restored. Appreciate a quick response.",bid_offer_submission
+"Hello Market Ops team, Settlement for COMED HUB on 2026-01-12 used an incorrect price of $1681.72/MWh in HE6; the posted LMP was different. Kindly correct and rebill. Kind regards.",settlement_dispute
+"Team, The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-02-26; we need the cost-based offer restored. Let us know if you need more data.",bid_offer_submission
+"To whom it may concern, Settlement for WESTERN HUB on 2026-06-16 used an incorrect price of $32.90/MWh in HE15; the posted LMP was different. Kindly correct and rebill.",settlement_dispute
+Our generator's net output was double counted on 2026-03-08 HE22 because the auxiliary load meter and the gross meter were both mapped to Wind Farm Ph II. Please advise.,meter_data_correction
+"To whom it may concern, Our peak market activity credit requirement for October seems to include exposure from a terminated position; it is overstated by $39.80. Please advise.",credit_collateral
+"Team, Our generator's net output was double counted on 2026-06-25 HE6 because the auxiliary load meter and the gross meter were both mapped to Battery Block A. Let us know if you need more data.",meter_data_correction
+The no-load and startup costs on our offer for Wind Farm Ph II were zeroed after the template upload on 2026-01-18; we need the cost-based offer restored.,bid_offer_submission
+"To whom it may concern, We are planning a 608 MW deactivation of CT-3 next year and need to know the notice requirements for outage scheduling. Please advise.",outage_reporting
+"Hi, The non-performance charge for Solar Array 4 during the performance assessment interval on 2026-07-21 HE16 looks inconsistent with our telemetry. Kind regards.",capacity_market
+Our battery storage offer for Solar Array 4 on 2026-06-16 keeps failing because the state-of-charge parameters are flagged as out of range. Please advise.,bid_offer_submission
+The non-performance charge for Wind Farm Ph II during the performance assessment interval on 2026-05-13 HE6 looks inconsistent with our telemetry. Thanks.,capacity_market
+"Hi, Our peak market activity credit requirement for October seems to include exposure from a terminated position; it is overstated by $432.16. This is impacting our month-end close.",credit_collateral
+Settlement for WESTERN HUB on 2026-05-23 used an incorrect price of $1218.79/MWh in HE14; the posted LMP was different. Kindly correct and rebill. Please advise.,settlement_dispute
+"Team, Our battery storage offer for Battery Block A on 2026-04-04 keeps failing because the state-of-charge parameters are flagged as out of range. This is impacting our month-end close.",bid_offer_submission
+"Following up on our call, The guaranty from our parent company for Chesapeake Storage Co needs to be amended to $444,000.74; which credit form should we use? Kind regards.",credit_collateral
+"Following up on our call, We believe the January reconciliation statement over-allocated uplift to Lakeshore Municipal Utility. Our calculation differs by $73,000.16 and we want to file a dispute. Appreciate a quick response.",settlement_dispute
+Urgent: Our generator's net output was double counted on 2026-06-27 HE3 because the auxiliary load meter and the gross meter were both mapped to Wind Farm Ph II. Kind regards.,meter_data_correction
+"To whom it may concern, The billing line for regulation market credits is missing from invoice INV-294934; Tri-State Wind Partners provided 410 MW of regulation during September. Appreciate a quick response.",billing_invoice
+Urgent: We received two invoices (INV-734551 and a duplicate) for October with the same charges of $530.60. Please void the duplicate. Thanks.,billing_invoice
+"To whom it may concern, We believe the March reconciliation statement over-allocated uplift to Blue Ridge Power LLC. Our calculation differs by $470.62 and we want to file a dispute. Let us know if you need more data.",settlement_dispute
+"Hello Market Ops team, Requesting to revise the eMTR values for Battery Block A for June; scaling factor was applied twice so reported energy is inflated by 34%. Kind regards.",meter_data_correction
+Fuel supply interruption caused Unit 2 to be unavailable for 191 MW from HE17 on 2026-02-05; how should we log this? Thanks.,outage_reporting
+The billing line for regulation market credits is missing from invoice INV-741889; Piedmont Solar Holdings provided 88 MW of regulation during August. Appreciate a quick response.,billing_invoice
+Urgent: Our generator's net output was double counted on 2026-06-02 HE22 because the auxiliary load meter and the gross meter were both mapped to Solar Array 4. Appreciate a quick response.,meter_data_correction
+"To whom it may concern, We received two invoices (INV-235943 and a duplicate) for June with the same charges of $572.19. Please void the duplicate.",billing_invoice
+"Hello Market Ops team, Requesting to revise the eMTR values for Unit 1 for February; scaling factor was applied twice so reported energy is inflated by 32%. Thanks.",meter_data_correction
+"We believe the August reconciliation statement over-allocated uplift to Great Lakes Trading LP. Our calculation differs by $562,000.18 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+"Hi, New employee M. Alvarez at Blue Ridge Power LLC needs a token and role assignment for the capacity system before 2026-05-21. Kind regards.",system_access
+"To whom it may concern, Our battery storage offer for Battery Block A on 2026-04-20 keeps failing because the state-of-charge parameters are flagged as out of range. Let us know if you need more data.",bid_offer_submission
+"Good morning, Our SFTP job for downloading settlement statements started failing on 2026-02-27 with a host key mismatch. Thanks.",system_access
+"Good morning, The billing line for regulation market credits is missing from invoice INV-929385; Lakeshore Municipal Utility provided 338 MW of regulation during January. Kind regards.",billing_invoice
+"Hi, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-09-11; we need the cost-based offer restored. Let us know if you need more data.",bid_offer_submission
+"Following up on our call, Our generator's net output was double counted on 2026-07-24 HE6 because the auxiliary load meter and the gross meter were both mapped to Battery Block A.",meter_data_correction
+"Hello Market Ops team, New employee S. Okafor at Susquehanna Hydro LLC needs a token and role assignment for the capacity system before 2026-07-19. This is impacting our month-end close.",system_access
+"Hi, The non-performance charge for Battery Block A during the performance assessment interval on 2026-06-06 HE22 looks inconsistent with our telemetry. Thanks.",capacity_market
+"Hello Market Ops team, Settlement for DOM ZONE on 2026-08-11 used an incorrect price of $1422.64/MWh in HE6; the posted LMP was different. Kindly correct and rebill. Thanks.",settlement_dispute
+"To whom it may concern, We believe the June reconciliation statement over-allocated uplift to Chesapeake Storage Co. Our calculation differs by $114,000.89 and we want to file a dispute. Let us know if you need more data.",settlement_dispute
+"Good morning, We received two invoices (INV-323006 and a duplicate) for August with the same charges of $383,000.87. Please void the duplicate. Thanks.",billing_invoice
+"Good morning, We received two invoices (INV-354003 and a duplicate) for June with the same charges of $850,000.81. Please void the duplicate. Appreciate a quick response.",billing_invoice
+"Hi, We need to request a must-offer exception for Battery Block A for the next auction because of a planned deactivation. Please advise.",capacity_market
+"Good morning, New employee L. Novak at Great Lakes Trading LP needs a token and role assignment for the capacity system before 2026-09-05. Appreciate a quick response.",system_access
+Urgent: Our SFTP job for downloading settlement statements started failing on 2026-01-24 with a host key mismatch. Appreciate a quick response.,system_access
+"Hi, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-09-23; we need the cost-based offer restored. Appreciate a quick response.",bid_offer_submission
+"Hello Market Ops team, We believe the April reconciliation statement over-allocated uplift to Blue Ridge Power LLC. Our calculation differs by $689.40 and we want to file a dispute. Kind regards.",settlement_dispute
+"Following up on our call, Fuel supply interruption caused Wind Farm Ph II to be unavailable for 341 MW from HE21 on 2026-01-14; how should we log this? Let us know if you need more data.",outage_reporting
+"To whom it may concern, We need to request a must-offer exception for Solar Array 4 for the next auction because of a planned deactivation. Thanks.",capacity_market
+"Urgent: Our peak market activity credit requirement for July seems to include exposure from a terminated position; it is overstated by $490,000.23. Let us know if you need more data.",credit_collateral
+"Hello Market Ops team, We are planning a 576 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Kind regards.",outage_reporting
+"Hi, Our battery storage offer for CT-3 on 2026-02-12 keeps failing because the state-of-charge parameters are flagged as out of range. Please advise.",bid_offer_submission
+"Following up on our call, Our battery storage offer for Solar Array 4 on 2026-04-22 keeps failing because the state-of-charge parameters are flagged as out of range. Kind regards.",bid_offer_submission
+"Team, Our battery storage offer for Unit 2 on 2026-03-17 keeps failing because the state-of-charge parameters are flagged as out of range. Appreciate a quick response.",bid_offer_submission
+"Hi, The non-performance charge for Battery Block A during the performance assessment interval on 2026-03-11 HE15 looks inconsistent with our telemetry.",capacity_market
+"Following up on our call, We are planning a 436 MW deactivation of CT-3 next year and need to know the notice requirements for outage scheduling. Let us know if you need more data.",outage_reporting
+Settlement for MILLCREEK 69KV LOAD on 2026-04-21 used an incorrect price of $892.28/MWh in HE23; the posted LMP was different. Kindly correct and rebill. Appreciate a quick response.,settlement_dispute
+"Hi, Fuel supply interruption caused Wind Farm Ph II to be unavailable for 533 MW from HE16 on 2026-06-20; how should we log this? Let us know if you need more data.",outage_reporting
+"Following up on our call, We believe the May reconciliation statement over-allocated uplift to Great Lakes Trading LP. Our calculation differs by $293.35 and we want to file a dispute. Please advise.",settlement_dispute
+Urgent: We need to request a must-offer exception for Unit 1 for the next auction because of a planned deactivation. Appreciate a quick response.,capacity_market
+Urgent: The guaranty from our parent company for Delmarva Demand Response needs to be amended to $77.53; which credit form should we use? Thanks.,credit_collateral
+"Good morning, The billing line for regulation market credits is missing from invoice INV-183213; Susquehanna Hydro LLC provided 247 MW of regulation during March. Appreciate a quick response.",billing_invoice
+"Urgent: We received two invoices (INV-802733 and a duplicate) for July with the same charges of $91,000.78. Please void the duplicate. This is impacting our month-end close.",billing_invoice
+"Following up on our call, We received two invoices (INV-977489 and a duplicate) for October with the same charges of $889.74. Please void the duplicate.",billing_invoice
+New employee R. Chen at Allegheny Peak Energy needs a token and role assignment for the capacity system before 2026-03-16.,system_access
+"Following up on our call, The no-load and startup costs on our offer for Wind Farm Ph II were zeroed after the template upload on 2026-07-04; we need the cost-based offer restored. This is impacting our month-end close.",bid_offer_submission
+"Good morning, We believe the September reconciliation statement over-allocated uplift to Tri-State Wind Partners. Our calculation differs by $511,000.24 and we want to file a dispute. Kind regards.",settlement_dispute
+"Following up on our call, Our battery storage offer for Unit 1 on 2026-07-19 keeps failing because the state-of-charge parameters are flagged as out of range. Thanks.",bid_offer_submission
+"Good morning, Our SFTP job for downloading settlement statements started failing on 2026-01-27 with a host key mismatch.",system_access
+"Hi, Our peak market activity credit requirement for May seems to include exposure from a terminated position; it is overstated by $289.39. Please advise.",credit_collateral
+"Team, Requesting to revise the eMTR values for Wind Farm Ph II for April; scaling factor was applied twice so reported energy is inflated by 28%. This is impacting our month-end close.",meter_data_correction
+"To whom it may concern, We need to request a must-offer exception for Battery Block A for the next auction because of a planned deactivation. Kind regards.",capacity_market
+"To whom it may concern, The billing line for regulation market credits is missing from invoice INV-873677; Allegheny Peak Energy provided 641 MW of regulation during February. Appreciate a quick response.",billing_invoice
+"To whom it may concern, Our peak market activity credit requirement for June seems to include exposure from a terminated position; it is overstated by $513.76. This is impacting our month-end close.",credit_collateral
+"Hello Market Ops team, Requesting to revise the eMTR values for CT-3 for July; scaling factor was applied twice so reported energy is inflated by 13%. Let us know if you need more data.",meter_data_correction
+"Team, We received two invoices (INV-220002 and a duplicate) for September with the same charges of $916.19. Please void the duplicate. Please advise.",billing_invoice
+"Team, Our SFTP job for downloading settlement statements started failing on 2026-01-06 with a host key mismatch. Please advise.",system_access
+Urgent: We are planning a 62 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Appreciate a quick response.,outage_reporting
+Urgent: Settlement for WESTFALL 230KV GEN1 on 2026-09-23 used an incorrect price of $1166.42/MWh in HE5; the posted LMP was different. Kindly correct and rebill. Please advise.,settlement_dispute
+"Team, The guaranty from our parent company for Ohio Valley Generation needs to be amended to $619,000.03; which credit form should we use? Appreciate a quick response.",credit_collateral
+"Good morning, We believe the February reconciliation statement over-allocated uplift to Susquehanna Hydro LLC. Our calculation differs by $634.24 and we want to file a dispute. Let us know if you need more data.",settlement_dispute
+"Good morning, Settlement for MILLCREEK 69KV LOAD on 2026-04-01 used an incorrect price of $1626.43/MWh in HE7; the posted LMP was different. Kindly correct and rebill. This is impacting our month-end close.",settlement_dispute
+"Team, The billing line for regulation market credits is missing from invoice INV-689742; Susquehanna Hydro LLC provided 235 MW of regulation during April. This is impacting our month-end close.",billing_invoice
+"To whom it may concern, The guaranty from our parent company for Allegheny Peak Energy needs to be amended to $817,000.06; which credit form should we use? Let us know if you need more data.",credit_collateral
+Urgent: The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-04-17; we need the cost-based offer restored. Kind regards.,bid_offer_submission
+Urgent: Fuel supply interruption caused Wind Farm Ph II to be unavailable for 115 MW from HE17 on 2026-02-26; how should we log this? Please advise.,outage_reporting
+Urgent: We received two invoices (INV-635211 and a duplicate) for August with the same charges of $696.49. Please void the duplicate. This is impacting our month-end close.,billing_invoice
+"Hello Market Ops team, The non-performance charge for CT-3 during the performance assessment interval on 2026-05-06 HE2 looks inconsistent with our telemetry.",capacity_market
+"Following up on our call, We received two invoices (INV-593158 and a duplicate) for January with the same charges of $663,000.76. Please void the duplicate.",billing_invoice
+"To whom it may concern, We need to request a must-offer exception for Unit 1 for the next auction because of a planned deactivation. Let us know if you need more data.",capacity_market
+"To whom it may concern, Our generator's net output was double counted on 2026-08-11 HE17 because the auxiliary load meter and the gross meter were both mapped to Unit 2. Please advise.",meter_data_correction
+"Good morning, Fuel supply interruption caused Battery Block A to be unavailable for 635 MW from HE14 on 2026-04-18; how should we log this? Please advise.",outage_reporting
+"Following up on our call, The no-load and startup costs on our offer for Wind Farm Ph II were zeroed after the template upload on 2026-02-17; we need the cost-based offer restored. Thanks.",bid_offer_submission
+"Following up on our call, New employee M. Alvarez at Lakeshore Municipal Utility needs a token and role assignment for the capacity system before 2026-01-05. Appreciate a quick response.",system_access
+Urgent: We need to request a must-offer exception for CT-3 for the next auction because of a planned deactivation. Appreciate a quick response.,capacity_market
+"Team, New employee R. Chen at Tri-State Wind Partners needs a token and role assignment for the capacity system before 2026-09-16. Kind regards.",system_access
+"Team, The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-05-15; we need the cost-based offer restored. Kind regards.",bid_offer_submission
+"Good morning, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Appreciate a quick response.",capacity_market
+"Team, Our SFTP job for downloading settlement statements started failing on 2026-02-07 with a host key mismatch. Thanks.",system_access
+"Good morning, We believe the April reconciliation statement over-allocated uplift to Delmarva Demand Response. Our calculation differs by $68,000.10 and we want to file a dispute. Thanks.",settlement_dispute
+"Hello Market Ops team, Our SFTP job for downloading settlement statements started failing on 2026-04-03 with a host key mismatch. Please advise.",system_access
+Our generator's net output was double counted on 2026-05-13 HE4 because the auxiliary load meter and the gross meter were both mapped to Unit 1. Please advise.,meter_data_correction
+"Hi, Settlement for COMED HUB on 2026-08-28 used an incorrect price of $851.94/MWh in HE24; the posted LMP was different. Kindly correct and rebill. Please advise.",settlement_dispute
+"Following up on our call, We received two invoices (INV-375192 and a duplicate) for May with the same charges of $120.14. Please void the duplicate. Appreciate a quick response.",billing_invoice
+"Good morning, The no-load and startup costs on our offer for Unit 2 were zeroed after the template upload on 2026-09-11; we need the cost-based offer restored. Appreciate a quick response.",bid_offer_submission
+"To whom it may concern, The non-performance charge for Solar Array 4 during the performance assessment interval on 2026-09-09 HE16 looks inconsistent with our telemetry. Thanks.",capacity_market
+"Hello Market Ops team, Settlement for DOM ZONE on 2026-04-01 used an incorrect price of $1557.77/MWh in HE4; the posted LMP was different. Kindly correct and rebill.",settlement_dispute
+Urgent: The non-performance charge for Unit 1 during the performance assessment interval on 2026-06-11 HE24 looks inconsistent with our telemetry. Let us know if you need more data.,capacity_market
+Our generator's net output was double counted on 2026-06-04 HE4 because the auxiliary load meter and the gross meter were both mapped to Wind Farm Ph II. Kind regards.,meter_data_correction
+"Following up on our call, New employee J. Patel at Blue Ridge Power LLC needs a token and role assignment for the capacity system before 2026-06-26. Appreciate a quick response.",system_access
+"Good morning, Our generator's net output was double counted on 2026-03-24 HE19 because the auxiliary load meter and the gross meter were both mapped to Unit 2. Kind regards.",meter_data_correction
+New employee S. Okafor at Great Lakes Trading LP needs a token and role assignment for the capacity system before 2026-08-17.,system_access
+"Hi, The billing line for regulation market credits is missing from invoice INV-525792; Chesapeake Storage Co provided 315 MW of regulation during February. Appreciate a quick response.",billing_invoice
+"Hello Market Ops team, Our peak market activity credit requirement for February seems to include exposure from a terminated position; it is overstated by $392.33.",credit_collateral
+Fuel supply interruption caused Unit 2 to be unavailable for 154 MW from HE3 on 2026-08-21; how should we log this? Kind regards.,outage_reporting
+"Following up on our call, Fuel supply interruption caused Solar Array 4 to be unavailable for 138 MW from HE1 on 2026-03-26; how should we log this? This is impacting our month-end close.",outage_reporting
+"Hello Market Ops team, Settlement for SUNBURY 500KV on 2026-08-16 used an incorrect price of $1733.44/MWh in HE14; the posted LMP was different. Kindly correct and rebill. Please advise.",settlement_dispute
+"Hello Market Ops team, Settlement for AEP ZONE on 2026-07-28 used an incorrect price of $1483.22/MWh in HE11; the posted LMP was different. Kindly correct and rebill. Kind regards.",settlement_dispute
+"To whom it may concern, Requesting to revise the eMTR values for Wind Farm Ph II for October; scaling factor was applied twice so reported energy is inflated by 21%. Thanks.",meter_data_correction
+"Team, Requesting to revise the eMTR values for Unit 1 for January; scaling factor was applied twice so reported energy is inflated by 3%. Kind regards.",meter_data_correction
+"Following up on our call, Fuel supply interruption caused Solar Array 4 to be unavailable for 421 MW from HE21 on 2026-05-01; how should we log this? This is impacting our month-end close.",outage_reporting
+"Team, Settlement for AEP ZONE on 2026-06-07 used an incorrect price of $273.88/MWh in HE12; the posted LMP was different. Kindly correct and rebill. Appreciate a quick response.",settlement_dispute
+"Team, Settlement for SUNBURY 500KV on 2026-07-24 used an incorrect price of $253.09/MWh in HE8; the posted LMP was different. Kindly correct and rebill. Please advise.",settlement_dispute
+"Following up on our call, We are planning a 221 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Please advise.",outage_reporting
+"Hi, The guaranty from our parent company for Delmarva Demand Response needs to be amended to $320,000.39; which credit form should we use? Appreciate a quick response.",credit_collateral
+"Hello Market Ops team, The non-performance charge for Unit 2 during the performance assessment interval on 2026-01-15 HE1 looks inconsistent with our telemetry. Kind regards.",capacity_market
+"To whom it may concern, The billing line for regulation market credits is missing from invoice INV-407929; Chesapeake Storage Co provided 138 MW of regulation during January. Let us know if you need more data.",billing_invoice
+"Hi, We need to request a must-offer exception for Unit 1 for the next auction because of a planned deactivation. Appreciate a quick response.",capacity_market
+Urgent: We received two invoices (INV-250700 and a duplicate) for June with the same charges of $797.77. Please void the duplicate.,billing_invoice
+"Hi, Our SFTP job for downloading settlement statements started failing on 2026-01-18 with a host key mismatch. This is impacting our month-end close.",system_access
+"Hello Market Ops team, Fuel supply interruption caused Solar Array 4 to be unavailable for 124 MW from HE9 on 2026-05-08; how should we log this? This is impacting our month-end close.",outage_reporting
+"Hi, Our peak market activity credit requirement for March seems to include exposure from a terminated position; it is overstated by $401.26. Kind regards.",credit_collateral
+"To whom it may concern, The guaranty from our parent company for Susquehanna Hydro LLC needs to be amended to $756,000.21; which credit form should we use? Appreciate a quick response.",credit_collateral
+"To whom it may concern, Our SFTP job for downloading settlement statements started failing on 2026-09-06 with a host key mismatch. Please advise.",system_access
+"Following up on our call, Requesting to revise the eMTR values for Solar Array 4 for September; scaling factor was applied twice so reported energy is inflated by 25%. This is impacting our month-end close.",meter_data_correction
+"Good morning, We are planning a 461 MW deactivation of Battery Block A next year and need to know the notice requirements for outage scheduling. Thanks.",outage_reporting
+We received two invoices (INV-723421 and a duplicate) for August with the same charges of $328.13. Please void the duplicate.,billing_invoice
+"Hi, Our generator's net output was double counted on 2026-01-24 HE22 because the auxiliary load meter and the gross meter were both mapped to Battery Block A.",meter_data_correction
+"Hello Market Ops team, We are planning a 230 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Please advise.",outage_reporting
+"Hello Market Ops team, Settlement for WESTFALL 230KV GEN1 on 2026-03-17 used an incorrect price of $998.22/MWh in HE3; the posted LMP was different. Kindly correct and rebill. Let us know if you need more data.",settlement_dispute
+"Hi, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Appreciate a quick response.",capacity_market
+"Team, Settlement for PECO ZONE on 2026-08-27 used an incorrect price of $1463.74/MWh in HE14; the posted LMP was different. Kindly correct and rebill. This is impacting our month-end close.",settlement_dispute
+"To whom it may concern, We believe the July reconciliation statement over-allocated uplift to Ohio Valley Generation. Our calculation differs by $18,000.17 and we want to file a dispute.",settlement_dispute
+"Following up on our call, New employee R. Chen at Great Lakes Trading LP needs a token and role assignment for the capacity system before 2026-07-11. Let us know if you need more data.",system_access
+"Following up on our call, The no-load and startup costs on our offer for Battery Block A were zeroed after the template upload on 2026-01-26; we need the cost-based offer restored. Let us know if you need more data.",bid_offer_submission
+"Following up on our call, We need to request a must-offer exception for Unit 2 for the next auction because of a planned deactivation. Kind regards.",capacity_market
+"Good morning, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-04-06; we need the cost-based offer restored. Kind regards.",bid_offer_submission
+"Team, Settlement for MILLCREEK 69KV LOAD on 2026-08-01 used an incorrect price of $100.56/MWh in HE14; the posted LMP was different. Kindly correct and rebill. Please advise.",settlement_dispute
+"Good morning, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-08-27; we need the cost-based offer restored. Please advise.",bid_offer_submission
+"Team, Our generator's net output was double counted on 2026-03-13 HE11 because the auxiliary load meter and the gross meter were both mapped to Solar Array 4.",meter_data_correction
+"Good morning, New employee R. Chen at Allegheny Peak Energy needs a token and role assignment for the capacity system before 2026-03-18. Let us know if you need more data.",system_access
+"Following up on our call, The billing line for regulation market credits is missing from invoice INV-232993; Ohio Valley Generation provided 509 MW of regulation during April.",billing_invoice
+"Hello Market Ops team, Fuel supply interruption caused Battery Block A to be unavailable for 449 MW from HE13 on 2026-05-28; how should we log this? Let us know if you need more data.",outage_reporting
+"Following up on our call, We are planning a 180 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Kind regards.",outage_reporting
+"Hello Market Ops team, We are planning a 160 MW deactivation of Battery Block A next year and need to know the notice requirements for outage scheduling. Thanks.",outage_reporting
+"To whom it may concern, Fuel supply interruption caused Wind Farm Ph II to be unavailable for 285 MW from HE8 on 2026-03-25; how should we log this? Appreciate a quick response.",outage_reporting
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-03-06 with a host key mismatch. This is impacting our month-end close.",system_access
+"Hi, The no-load and startup costs on our offer for CT-3 were zeroed after the template upload on 2026-01-05; we need the cost-based offer restored. Thanks.",bid_offer_submission
+We received two invoices (INV-999476 and a duplicate) for August with the same charges of $922.34. Please void the duplicate. Let us know if you need more data.,billing_invoice
+Urgent: We received two invoices (INV-714804 and a duplicate) for February with the same charges of $204.44. Please void the duplicate. Kind regards.,billing_invoice
+"Good morning, New employee J. Patel at Piedmont Solar Holdings needs a token and role assignment for the capacity system before 2026-01-10. Let us know if you need more data.",system_access
+"Following up on our call, We are planning a 226 MW deactivation of CT-3 next year and need to know the notice requirements for outage scheduling. Appreciate a quick response.",outage_reporting
+"Good morning, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Thanks.",capacity_market
+Urgent: New employee L. Novak at Tri-State Wind Partners needs a token and role assignment for the capacity system before 2026-08-03. Thanks.,system_access
+The non-performance charge for Unit 1 during the performance assessment interval on 2026-07-06 HE9 looks inconsistent with our telemetry.,capacity_market
+"To whom it may concern, Our generator's net output was double counted on 2026-04-21 HE10 because the auxiliary load meter and the gross meter were both mapped to Battery Block A. Please advise.",meter_data_correction
+Urgent: We are planning a 99 MW deactivation of Wind Farm Ph II next year and need to know the notice requirements for outage scheduling.,outage_reporting
+"Urgent: We received two invoices (INV-529590 and a duplicate) for April with the same charges of $277,000.75. Please void the duplicate. Kind regards.",billing_invoice
+"Hello Market Ops team, The guaranty from our parent company for Susquehanna Hydro LLC needs to be amended to $870,000.21; which credit form should we use? Thanks.",credit_collateral
+"Hello Market Ops team, The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-07-12; we need the cost-based offer restored. Thanks.",bid_offer_submission
+"Following up on our call, The no-load and startup costs on our offer for Battery Block A were zeroed after the template upload on 2026-08-21; we need the cost-based offer restored. Please advise.",bid_offer_submission
+Urgent: Our SFTP job for downloading settlement statements started failing on 2026-07-14 with a host key mismatch. Thanks.,system_access
+"Hi, The non-performance charge for Solar Array 4 during the performance assessment interval on 2026-04-17 HE12 looks inconsistent with our telemetry. Kind regards.",capacity_market
+"Following up on our call, Requesting to revise the eMTR values for Unit 2 for October; scaling factor was applied twice so reported energy is inflated by 27%. Kind regards.",meter_data_correction
+"Hello Market Ops team, The billing line for regulation market credits is missing from invoice INV-561845; Keystone Renewables Inc provided 296 MW of regulation during May.",billing_invoice
+Requesting to revise the eMTR values for Solar Array 4 for March; scaling factor was applied twice so reported energy is inflated by 12%. This is impacting our month-end close.,meter_data_correction
+"Hello Market Ops team, Our battery storage offer for Unit 2 on 2026-05-25 keeps failing because the state-of-charge parameters are flagged as out of range. This is impacting our month-end close.",bid_offer_submission
+"Hello Market Ops team, Our battery storage offer for Battery Block A on 2026-07-05 keeps failing because the state-of-charge parameters are flagged as out of range. Thanks.",bid_offer_submission
+"To whom it may concern, The non-performance charge for Wind Farm Ph II during the performance assessment interval on 2026-03-28 HE7 looks inconsistent with our telemetry. Please advise.",capacity_market
+"Team, Our SFTP job for downloading settlement statements started failing on 2026-01-17 with a host key mismatch. This is impacting our month-end close.",system_access
+"Team, We need to request a must-offer exception for Solar Array 4 for the next auction because of a planned deactivation. Kind regards.",capacity_market
+"Good morning, Our peak market activity credit requirement for October seems to include exposure from a terminated position; it is overstated by $729.13. Let us know if you need more data.",credit_collateral
+Urgent: We believe the August reconciliation statement over-allocated uplift to Piedmont Solar Holdings. Our calculation differs by $807.64 and we want to file a dispute. Appreciate a quick response.,settlement_dispute
+"Hi, The billing line for regulation market credits is missing from invoice INV-774048; Chesapeake Storage Co provided 362 MW of regulation during May. Kind regards.",billing_invoice
+New employee S. Okafor at Allegheny Peak Energy needs a token and role assignment for the capacity system before 2026-05-12. Appreciate a quick response.,system_access
+"Good morning, Our peak market activity credit requirement for May seems to include exposure from a terminated position; it is overstated by $99.13. Let us know if you need more data.",credit_collateral
+"Hello Market Ops team, Our generator's net output was double counted on 2026-07-16 HE3 because the auxiliary load meter and the gross meter were both mapped to CT-3. Kind regards.",meter_data_correction
+"To whom it may concern, The billing line for regulation market credits is missing from invoice INV-718645; Keystone Renewables Inc provided 80 MW of regulation during January. Let us know if you need more data.",billing_invoice
+"To whom it may concern, Our SFTP job for downloading settlement statements started failing on 2026-02-01 with a host key mismatch. Kind regards.",system_access
+"Team, The non-performance charge for Unit 2 during the performance assessment interval on 2026-04-05 HE24 looks inconsistent with our telemetry. This is impacting our month-end close.",capacity_market
+Urgent: Our battery storage offer for CT-3 on 2026-06-02 keeps failing because the state-of-charge parameters are flagged as out of range. Kind regards.,bid_offer_submission
+New employee D. Brooks at Northern Neck Electric Coop needs a token and role assignment for the capacity system before 2026-06-04. Appreciate a quick response.,system_access
+"Hi, We received two invoices (INV-699710 and a duplicate) for September with the same charges of $795.27. Please void the duplicate. Please advise.",billing_invoice
+Urgent: Settlement for WESTERN HUB on 2026-01-27 used an incorrect price of $39.52/MWh in HE17; the posted LMP was different. Kindly correct and rebill. Please advise.,settlement_dispute
+Urgent: Our peak market activity credit requirement for February seems to include exposure from a terminated position; it is overstated by $67.67.,credit_collateral
+Our generator's net output was double counted on 2026-06-16 HE10 because the auxiliary load meter and the gross meter were both mapped to Solar Array 4.,meter_data_correction
+Requesting to revise the eMTR values for CT-3 for October; scaling factor was applied twice so reported energy is inflated by 11%. This is impacting our month-end close.,meter_data_correction
+"Good morning, Our SFTP job for downloading settlement statements started failing on 2026-03-04 with a host key mismatch.",system_access
+"Hi, We believe the August reconciliation statement over-allocated uplift to Northern Neck Electric Coop. Our calculation differs by $741,000.63 and we want to file a dispute. Thanks.",settlement_dispute
+Urgent: We believe the September reconciliation statement over-allocated uplift to Ohio Valley Generation. Our calculation differs by $895.18 and we want to file a dispute. Let us know if you need more data.,settlement_dispute
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-02-27 with a host key mismatch. Kind regards.",system_access
+"Team, The guaranty from our parent company for Keystone Renewables Inc needs to be amended to $318,000.83; which credit form should we use? Kind regards.",credit_collateral
+"Good morning, Our peak market activity credit requirement for July seems to include exposure from a terminated position; it is overstated by $159,000.16. This is impacting our month-end close.",credit_collateral
+"To whom it may concern, Settlement for DOM ZONE on 2026-05-26 used an incorrect price of $1475.09/MWh in HE18; the posted LMP was different. Kindly correct and rebill. Thanks.",settlement_dispute
+"To whom it may concern, Our battery storage offer for Solar Array 4 on 2026-07-15 keeps failing because the state-of-charge parameters are flagged as out of range. This is impacting our month-end close.",bid_offer_submission
+Our generator's net output was double counted on 2026-04-01 HE7 because the auxiliary load meter and the gross meter were both mapped to Battery Block A. Let us know if you need more data.,meter_data_correction
+"Our peak market activity credit requirement for June seems to include exposure from a terminated position; it is overstated by $937,000.24.",credit_collateral
+Our generator's net output was double counted on 2026-05-22 HE24 because the auxiliary load meter and the gross meter were both mapped to Unit 2. Let us know if you need more data.,meter_data_correction
+We are planning a 564 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Let us know if you need more data.,outage_reporting
+"Following up on our call, The billing line for regulation market credits is missing from invoice INV-149704; Northern Neck Electric Coop provided 481 MW of regulation during April. Kind regards.",billing_invoice
+"To whom it may concern, New employee L. Novak at Delmarva Demand Response needs a token and role assignment for the capacity system before 2026-09-15. Kind regards.",system_access
+"Good morning, Settlement for PECO ZONE on 2026-04-06 used an incorrect price of $1230.16/MWh in HE5; the posted LMP was different. Kindly correct and rebill.",settlement_dispute
+The non-performance charge for Solar Array 4 during the performance assessment interval on 2026-06-01 HE18 looks inconsistent with our telemetry. Kind regards.,capacity_market
+"Hello Market Ops team, Our SFTP job for downloading settlement statements started failing on 2026-04-03 with a host key mismatch. This is impacting our month-end close.",system_access
+"Team, We need to request a must-offer exception for Solar Array 4 for the next auction because of a planned deactivation. Kind regards.",capacity_market
+"Team, Our battery storage offer for Unit 1 on 2026-07-22 keeps failing because the state-of-charge parameters are flagged as out of range. Kind regards.",bid_offer_submission
+"Hello Market Ops team, The guaranty from our parent company for Piedmont Solar Holdings needs to be amended to $390,000.54; which credit form should we use? This is impacting our month-end close.",credit_collateral
+"Team, We are planning a 593 MW deactivation of CT-3 next year and need to know the notice requirements for outage scheduling.",outage_reporting
+"To whom it may concern, Fuel supply interruption caused Unit 2 to be unavailable for 223 MW from HE21 on 2026-04-03; how should we log this? This is impacting our month-end close.",outage_reporting
+"Hi, New employee J. Patel at Piedmont Solar Holdings needs a token and role assignment for the capacity system before 2026-05-24. Please advise.",system_access
+"Hello Market Ops team, Our peak market activity credit requirement for September seems to include exposure from a terminated position; it is overstated by $454.60. Let us know if you need more data.",credit_collateral
+"Team, We believe the September reconciliation statement over-allocated uplift to Keystone Renewables Inc. Our calculation differs by $425,000.60 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+"Hi, The guaranty from our parent company for Great Lakes Trading LP needs to be amended to $335,000.02; which credit form should we use? Thanks.",credit_collateral
+Requesting to revise the eMTR values for Solar Array 4 for May; scaling factor was applied twice so reported energy is inflated by 6%. Please advise.,meter_data_correction
+"Following up on our call, Requesting to revise the eMTR values for Wind Farm Ph II for April; scaling factor was applied twice so reported energy is inflated by 27%. Let us know if you need more data.",meter_data_correction
+"Following up on our call, The guaranty from our parent company for Ohio Valley Generation needs to be amended to $632.93; which credit form should we use? This is impacting our month-end close.",credit_collateral
+We need to request a must-offer exception for Unit 2 for the next auction because of a planned deactivation. Appreciate a quick response.,capacity_market
+The billing line for regulation market credits is missing from invoice INV-482017; Ohio Valley Generation provided 393 MW of regulation during September.,billing_invoice
+"Good morning, The billing line for regulation market credits is missing from invoice INV-402813; Great Lakes Trading LP provided 575 MW of regulation during February. Appreciate a quick response.",billing_invoice
+"Team, Requesting to revise the eMTR values for Unit 2 for August; scaling factor was applied twice so reported energy is inflated by 29%. Thanks.",meter_data_correction
+"Team, The billing line for regulation market credits is missing from invoice INV-698400; Ohio Valley Generation provided 494 MW of regulation during July. Thanks.",billing_invoice
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-02-22 with a host key mismatch. This is impacting our month-end close.",system_access
+"Hello Market Ops team, Requesting to revise the eMTR values for Wind Farm Ph II for May; scaling factor was applied twice so reported energy is inflated by 28%. Appreciate a quick response.",meter_data_correction
+"Team, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Kind regards.",capacity_market
+Urgent: The guaranty from our parent company for Susquehanna Hydro LLC needs to be amended to $55.71; which credit form should we use? Kind regards.,credit_collateral
+"Team, We believe the April reconciliation statement over-allocated uplift to Blue Ridge Power LLC. Our calculation differs by $354.85 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+"Hi, The no-load and startup costs on our offer for CT-3 were zeroed after the template upload on 2026-08-11; we need the cost-based offer restored.",bid_offer_submission
+"To whom it may concern, Requesting to revise the eMTR values for Solar Array 4 for April; scaling factor was applied twice so reported energy is inflated by 12%. Kind regards.",meter_data_correction
+"Hello Market Ops team, The non-performance charge for Unit 2 during the performance assessment interval on 2026-08-19 HE21 looks inconsistent with our telemetry. Please advise.",capacity_market
+We are planning a 384 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Appreciate a quick response.,outage_reporting
+"Hello Market Ops team, We believe the October reconciliation statement over-allocated uplift to Allegheny Peak Energy. Our calculation differs by $785.75 and we want to file a dispute.",settlement_dispute
+"Following up on our call, Fuel supply interruption caused CT-3 to be unavailable for 527 MW from HE9 on 2026-07-24; how should we log this? This is impacting our month-end close.",outage_reporting
+"Following up on our call, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Thanks.",capacity_market
+"Team, New employee J. Patel at Ohio Valley Generation needs a token and role assignment for the capacity system before 2026-02-12. Let us know if you need more data.",system_access
+"Hi, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-08-05; we need the cost-based offer restored. Thanks.",bid_offer_submission
+"To whom it may concern, Our peak market activity credit requirement for January seems to include exposure from a terminated position; it is overstated by $823.02. Thanks.",credit_collateral
+"To whom it may concern, We believe the May reconciliation statement over-allocated uplift to Keystone Renewables Inc. Our calculation differs by $133,000.21 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+"Team, We believe the August reconciliation statement over-allocated uplift to Lakeshore Municipal Utility. Our calculation differs by $825,000.98 and we want to file a dispute. This is impacting our month-end close.",settlement_dispute
+"Hello Market Ops team, The billing line for regulation market credits is missing from invoice INV-406143; Blue Ridge Power LLC provided 355 MW of regulation during September.",billing_invoice
+"Team, Our battery storage offer for Battery Block A on 2026-03-11 keeps failing because the state-of-charge parameters are flagged as out of range.",bid_offer_submission
+Fuel supply interruption caused Unit 1 to be unavailable for 623 MW from HE20 on 2026-08-17; how should we log this? Please advise.,outage_reporting
+"Following up on our call, The non-performance charge for Unit 2 during the performance assessment interval on 2026-06-21 HE16 looks inconsistent with our telemetry.",capacity_market
+"Hi, We believe the April reconciliation statement over-allocated uplift to Susquehanna Hydro LLC. Our calculation differs by $589,000.84 and we want to file a dispute. Kind regards.",settlement_dispute
+Urgent: We need to request a must-offer exception for CT-3 for the next auction because of a planned deactivation. Kind regards.,capacity_market
+"Hi, We are planning a 138 MW deactivation of Solar Array 4 next year and need to know the notice requirements for outage scheduling. Thanks.",outage_reporting
+"Team, Our peak market activity credit requirement for August seems to include exposure from a terminated position; it is overstated by $550,000.39. This is impacting our month-end close.",credit_collateral
+"To whom it may concern, We received two invoices (INV-390435 and a duplicate) for July with the same charges of $421,000.94. Please void the duplicate. Kind regards.",billing_invoice
+"To whom it may concern, Our peak market activity credit requirement for August seems to include exposure from a terminated position; it is overstated by $631.08. Let us know if you need more data.",credit_collateral
+"Hello Market Ops team, We need to request a must-offer exception for CT-3 for the next auction because of a planned deactivation. Thanks.",capacity_market
+"Hi, The guaranty from our parent company for Great Lakes Trading LP needs to be amended to $400,000.64; which credit form should we use? Appreciate a quick response.",credit_collateral
+"Good morning, The billing line for regulation market credits is missing from invoice INV-345673; Chesapeake Storage Co provided 142 MW of regulation during October. Please advise.",billing_invoice
+"Following up on our call, We need to request a must-offer exception for Battery Block A for the next auction because of a planned deactivation. Please advise.",capacity_market
+"Following up on our call, New employee R. Chen at Great Lakes Trading LP needs a token and role assignment for the capacity system before 2026-09-21.",system_access
+"Hi, Settlement for AEP ZONE on 2026-08-08 used an incorrect price of $1201.80/MWh in HE10; the posted LMP was different. Kindly correct and rebill. Kind regards.",settlement_dispute
+"Good morning, We are planning a 529 MW deactivation of Unit 1 next year and need to know the notice requirements for outage scheduling. Let us know if you need more data.",outage_reporting
+The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-03-10; we need the cost-based offer restored. This is impacting our month-end close.,bid_offer_submission
+"Good morning, We are planning a 196 MW deactivation of Battery Block A next year and need to know the notice requirements for outage scheduling.",outage_reporting
+"Team, Fuel supply interruption caused Wind Farm Ph II to be unavailable for 64 MW from HE15 on 2026-04-25; how should we log this?",outage_reporting
+Urgent: Requesting to revise the eMTR values for Battery Block A for March; scaling factor was applied twice so reported energy is inflated by 12%. Let us know if you need more data.,meter_data_correction
+"Following up on our call, Our battery storage offer for Battery Block A on 2026-04-24 keeps failing because the state-of-charge parameters are flagged as out of range. Let us know if you need more data.",bid_offer_submission
+"Following up on our call, Requesting to revise the eMTR values for Wind Farm Ph II for April; scaling factor was applied twice so reported energy is inflated by 20%.",meter_data_correction
+"Following up on our call, New employee D. Brooks at Northern Neck Electric Coop needs a token and role assignment for the capacity system before 2026-06-04.",system_access
+"To whom it may concern, Requesting to revise the eMTR values for Unit 2 for September; scaling factor was applied twice so reported energy is inflated by 24%. Please advise.",meter_data_correction
+"Hello Market Ops team, We received two invoices (INV-378829 and a duplicate) for September with the same charges of $512,000.10. Please void the duplicate. Let us know if you need more data.",billing_invoice
+"Hello Market Ops team, The guaranty from our parent company for Piedmont Solar Holdings needs to be amended to $212.14; which credit form should we use? Kind regards.",credit_collateral
+Fuel supply interruption caused CT-3 to be unavailable for 372 MW from HE23 on 2026-06-07; how should we log this? Kind regards.,outage_reporting
+"Hello Market Ops team, Our battery storage offer for CT-3 on 2026-09-23 keeps failing because the state-of-charge parameters are flagged as out of range. This is impacting our month-end close.",bid_offer_submission
+"To whom it may concern, The non-performance charge for Unit 1 during the performance assessment interval on 2026-06-12 HE23 looks inconsistent with our telemetry. Let us know if you need more data.",capacity_market
+"Hi, Our SFTP job for downloading settlement statements started failing on 2026-08-02 with a host key mismatch. Let us know if you need more data.",system_access
+"Following up on our call, Our battery storage offer for Wind Farm Ph II on 2026-06-07 keeps failing because the state-of-charge parameters are flagged as out of range.",bid_offer_submission
+"Hi, The non-performance charge for Solar Array 4 during the performance assessment interval on 2026-01-17 HE1 looks inconsistent with our telemetry. Thanks.",capacity_market
+"Hi, We believe the April reconciliation statement over-allocated uplift to Chesapeake Storage Co. Our calculation differs by $806.41 and we want to file a dispute. Appreciate a quick response.",settlement_dispute
+"Hi, Fuel supply interruption caused Unit 1 to be unavailable for 282 MW from HE5 on 2026-08-06; how should we log this?",outage_reporting
+"Team, The guaranty from our parent company for Lakeshore Municipal Utility needs to be amended to $101,000.78; which credit form should we use? This is impacting our month-end close.",credit_collateral
+"To whom it may concern, Our battery storage offer for CT-3 on 2026-02-20 keeps failing because the state-of-charge parameters are flagged as out of range. This is impacting our month-end close.",bid_offer_submission
+Requesting to revise the eMTR values for Wind Farm Ph II for March; scaling factor was applied twice so reported energy is inflated by 28%. Kind regards.,meter_data_correction
+"To whom it may concern, The no-load and startup costs on our offer for CT-3 were zeroed after the template upload on 2026-09-24; we need the cost-based offer restored. Appreciate a quick response.",bid_offer_submission
+"Hello Market Ops team, The billing line for regulation market credits is missing from invoice INV-686434; Piedmont Solar Holdings provided 225 MW of regulation during July. This is impacting our month-end close.",billing_invoice
+"Team, The billing line for regulation market credits is missing from invoice INV-748636; Blue Ridge Power LLC provided 205 MW of regulation during June. Please advise.",billing_invoice
+"Team, We need to request a must-offer exception for Wind Farm Ph II for the next auction because of a planned deactivation. Kind regards.",capacity_market
+"Hello Market Ops team, We are planning a 517 MW deactivation of Unit 1 next year and need to know the notice requirements for outage scheduling. Thanks.",outage_reporting
+Our battery storage offer for Battery Block A on 2026-03-19 keeps failing because the state-of-charge parameters are flagged as out of range. Thanks.,bid_offer_submission
+"Hi, Our generator's net output was double counted on 2026-03-19 HE6 because the auxiliary load meter and the gross meter were both mapped to Unit 1. Let us know if you need more data.",meter_data_correction
+Urgent: Fuel supply interruption caused Unit 1 to be unavailable for 498 MW from HE12 on 2026-02-14; how should we log this? Kind regards.,outage_reporting
+"Hi, New employee D. Brooks at Lakeshore Municipal Utility needs a token and role assignment for the capacity system before 2026-02-07. Kind regards.",system_access
+Urgent: Our generator's net output was double counted on 2026-06-09 HE14 because the auxiliary load meter and the gross meter were both mapped to Unit 1. This is impacting our month-end close.,meter_data_correction
+"Good morning, The no-load and startup costs on our offer for Unit 2 were zeroed after the template upload on 2026-05-05; we need the cost-based offer restored.",bid_offer_submission
+"To whom it may concern, Our SFTP job for downloading settlement statements started failing on 2026-08-12 with a host key mismatch.",system_access
+Our peak market activity credit requirement for June seems to include exposure from a terminated position; it is overstated by $792.61. Kind regards.,credit_collateral
+"Team, The guaranty from our parent company for Piedmont Solar Holdings needs to be amended to $229,000.83; which credit form should we use? Appreciate a quick response.",credit_collateral
+"To whom it may concern, We received two invoices (INV-743823 and a duplicate) for April with the same charges of $497.49. Please void the duplicate. Let us know if you need more data.",billing_invoice
+"Hi, New employee L. Novak at Lakeshore Municipal Utility needs a token and role assignment for the capacity system before 2026-05-15. Thanks.",system_access
+"Hello Market Ops team, We received two invoices (INV-267868 and a duplicate) for June with the same charges of $747,000.95. Please void the duplicate. Thanks.",billing_invoice
+"Following up on our call, Our generator's net output was double counted on 2026-03-23 HE22 because the auxiliary load meter and the gross meter were both mapped to Wind Farm Ph II. Thanks.",meter_data_correction
+"Following up on our call, Our generator's net output was double counted on 2026-09-03 HE18 because the auxiliary load meter and the gross meter were both mapped to CT-3. Appreciate a quick response.",meter_data_correction
+"Good morning, We believe the August reconciliation statement over-allocated uplift to Delmarva Demand Response. Our calculation differs by $378.66 and we want to file a dispute. Appreciate a quick response.",settlement_dispute
+"Good morning, Our SFTP job for downloading settlement statements started failing on 2026-01-25 with a host key mismatch. Thanks.",system_access
+Urgent: The non-performance charge for Wind Farm Ph II during the performance assessment interval on 2026-01-11 HE23 looks inconsistent with our telemetry. Appreciate a quick response.,capacity_market
+"Hello Market Ops team, Our battery storage offer for Solar Array 4 on 2026-07-03 keeps failing because the state-of-charge parameters are flagged as out of range.",bid_offer_submission
+"Hello Market Ops team, Settlement for PECO ZONE on 2026-06-24 used an incorrect price of $254.74/MWh in HE13; the posted LMP was different. Kindly correct and rebill. This is impacting our month-end close.",settlement_dispute
+"Team, Requesting to revise the eMTR values for CT-3 for July; scaling factor was applied twice so reported energy is inflated by 16%. Kind regards.",meter_data_correction
+We need to request a must-offer exception for Battery Block A for the next auction because of a planned deactivation. This is impacting our month-end close.,capacity_market
+"To whom it may concern, The no-load and startup costs on our offer for Unit 2 were zeroed after the template upload on 2026-09-19; we need the cost-based offer restored. This is impacting our month-end close.",bid_offer_submission
+"To whom it may concern, The no-load and startup costs on our offer for Unit 1 were zeroed after the template upload on 2026-05-17; we need the cost-based offer restored. This is impacting our month-end close.",bid_offer_submission
+"Hello Market Ops team, Fuel supply interruption caused CT-3 to be unavailable for 60 MW from HE11 on 2026-06-10; how should we log this? This is impacting our month-end close.",outage_reporting
+"Hello Market Ops team, Our battery storage offer for Solar Array 4 on 2026-01-10 keeps failing because the state-of-charge parameters are flagged as out of range. Kind regards.",bid_offer_submission
+"To whom it may concern, The no-load and startup costs on our offer for Battery Block A were zeroed after the template upload on 2026-03-15; we need the cost-based offer restored.",bid_offer_submission
+"Hello Market Ops team, The billing line for regulation market credits is missing from invoice INV-489434; Lakeshore Municipal Utility provided 413 MW of regulation during August. Kind regards.",billing_invoice
+"Following up on our call, The billing line for regulation market credits is missing from invoice INV-924730; Ohio Valley Generation provided 328 MW of regulation during October. Let us know if you need more data.",billing_invoice
+"Following up on our call, New employee L. Novak at Northern Neck Electric Coop needs a token and role assignment for the capacity system before 2026-01-24. Appreciate a quick response.",system_access
+"Following up on our call, Our SFTP job for downloading settlement statements started failing on 2026-09-01 with a host key mismatch. Let us know if you need more data.",system_access
+"To whom it may concern, Our battery storage offer for Wind Farm Ph II on 2026-09-19 keeps failing because the state-of-charge parameters are flagged as out of range. Kind regards.",bid_offer_submission
+"Hi, Requesting to revise the eMTR values for Wind Farm Ph II for January; scaling factor was applied twice so reported energy is inflated by 32%. Thanks.",meter_data_correction
+"Team, The non-performance charge for Wind Farm Ph II during the performance assessment interval on 2026-09-26 HE8 looks inconsistent with our telemetry. Appreciate a quick response.",capacity_market
+Our peak market activity credit requirement for March seems to include exposure from a terminated position; it is overstated by $830.39. This is impacting our month-end close.,credit_collateral
+Requesting to revise the eMTR values for Battery Block A for August; scaling factor was applied twice so reported energy is inflated by 31%. Thanks.,meter_data_correction
+"Hi, New employee S. Okafor at Chesapeake Storage Co needs a token and role assignment for the capacity system before 2026-05-24. Please advise.",system_access
+"Following up on our call, We received two invoices (INV-647977 and a duplicate) for March with the same charges of $486.95. Please void the duplicate. This is impacting our month-end close.",billing_invoice
+"Hi, We need to request a must-offer exception for CT-3 for the next auction because of a planned deactivation. Appreciate a quick response.",capacity_market
+"Hi, We received two invoices (INV-603508 and a duplicate) for September with the same charges of $744.67. Please void the duplicate. This is impacting our month-end close.",billing_invoice
+The non-performance charge for CT-3 during the performance assessment interval on 2026-06-09 HE20 looks inconsistent with our telemetry. Let us know if you need more data.,capacity_market
+"Hello Market Ops team, Settlement for HARMONY SOLAR 34KV on 2026-07-13 used an incorrect price of $180.53/MWh in HE17; the posted LMP was different. Kindly correct and rebill. Appreciate a quick response.",settlement_dispute
+"Good morning, The guaranty from our parent company for Piedmont Solar Holdings needs to be amended to $657,000.95; which credit form should we use? Let us know if you need more data.",credit_collateral
+"Good morning, Fuel supply interruption caused Battery Block A to be unavailable for 463 MW from HE13 on 2026-07-12; how should we log this? This is impacting our month-end close.",outage_reporting
+"Hello Market Ops team, The guaranty from our parent company for Keystone Renewables Inc needs to be amended to $742,000.22; which credit form should we use? This is impacting our month-end close.",credit_collateral
+"Following up on our call, We are planning a 160 MW deactivation of Unit 1 next year and need to know the notice requirements for outage scheduling. Please advise.",outage_reporting
+"To whom it may concern, The guaranty from our parent company for Susquehanna Hydro LLC needs to be amended to $113,000.86; which credit form should we use?",credit_collateral
+Urgent: Our generator's net output was double counted on 2026-07-27 HE17 because the auxiliary load meter and the gross meter were both mapped to Unit 1. This is impacting our month-end close.,meter_data_correction
+"Team, Our generator's net output was double counted on 2026-05-25 HE11 because the auxiliary load meter and the gross meter were both mapped to Unit 2. Let us know if you need more data.",meter_data_correction
+"Hello Market Ops team, Our SFTP job for downloading settlement statements started failing on 2026-06-19 with a host key mismatch. Kind regards.",system_access
+"Team, The no-load and startup costs on our offer for Solar Array 4 were zeroed after the template upload on 2026-08-17; we need the cost-based offer restored. Please advise.",bid_offer_submission
+"Team, Our battery storage offer for Wind Farm Ph II on 2026-03-28 keeps failing because the state-of-charge parameters are flagged as out of range. Let us know if you need more data.",bid_offer_submission
+"Good morning, Our battery storage offer for Unit 2 on 2026-07-25 keeps failing because the state-of-charge parameters are flagged as out of range. Appreciate a quick response.",bid_offer_submission
+"Team, Our peak market activity credit requirement for April seems to include exposure from a terminated position; it is overstated by $203.55. This is impacting our month-end close.",credit_collateral

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+models/
+rag/docs/
+rag/index/
+.env
+logs/
+api.log
+ui.log
+reports_*.log
+docs/*.docx
+node_modules/

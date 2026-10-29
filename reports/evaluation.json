@@ -1,0 +1,429 @@
+{
+  "llm_backend": "local",
+  "llm_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "retrieval": {
+    "n": 12,
+    "hit@1": 0.9166666666666666,
+    "hit@4": 1.0,
+    "detail": [
+      {
+        "question": "How is balancing operating reserve credit calculated for a generator dispatched in real time?",
+        "expected": [
+          "m28"
+        ],
+        "retrieved": [
+          "m28 p.45",
+          "m11 p.78",
+          "m28 p.43",
+          "m28 p.45"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "What is the deadline for submitting a billing dispute?",
+        "expected": [
+          "m29"
+        ],
+        "retrieved": [
+          "m29 p.11",
+          "m29 p.11",
+          "m29 p.8",
+          "m28 p.23"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "How are meter data corrections handled in the reconciliation process?",
+        "expected": [
+          "m28"
+        ],
+        "retrieved": [
+          "m28 p.123",
+          "m28 p.122",
+          "m28 p.122",
+          "m28 p.107"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "What happens if a capacity resource does not perform during a performance assessment interval?",
+        "expected": [
+          "m18"
+        ],
+        "retrieved": [
+          "m18 p.245",
+          "m18 p.179",
+          "m18 p.188",
+          "m11 p.141"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "When is the day-ahead energy market offer submission deadline?",
+        "expected": [
+          "m11"
+        ],
+        "retrieved": [
+          "m11 p.250",
+          "m11 p.250",
+          "m11 p.22",
+          "m11 p.92"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "How are day-ahead and real-time spot market energy charges calculated?",
+        "expected": [
+          "m28"
+        ],
+        "retrieved": [
+          "m28 p.24",
+          "m28 p.28",
+          "m11 p.20",
+          "m11 p.155"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "How often are invoices issued to market participants and when is payment due?",
+        "expected": [
+          "m29"
+        ],
+        "retrieved": [
+          "m29 p.12",
+          "m29 p.8",
+          "m29 p.8",
+          "m29 p.12"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "What is the Base Residual Auction and when is it held?",
+        "expected": [
+          "m18"
+        ],
+        "retrieved": [
+          "m18 p.144",
+          "m18 p.117",
+          "m18 p.237",
+          "m18 p.147"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "How are virtual bids such as increment offers and decrement bids cleared in the day-ahead market?",
+        "expected": [
+          "m11"
+        ],
+        "retrieved": [
+          "m18 p.151",
+          "m18 p.153",
+          "m11 p.43",
+          "m28 p.119"
+        ],
+        "hit@1": false,
+        "hit@4": true
+      },
+      {
+        "question": "How is regulation market performance score used in settlement credits?",
+        "expected": [
+          "m11",
+          "m28"
+        ],
+        "retrieved": [
+          "m11 p.108",
+          "m28 p.32",
+          "m28 p.178",
+          "m18 p.205"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "How are congestion charges and transmission losses charges calculated?",
+        "expected": [
+          "m28"
+        ],
+        "retrieved": [
+          "m28 p.104",
+          "m28 p.91",
+          "m29 p.14",
+          "m28 p.91"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      },
+      {
+        "question": "What are the requirements for capacity resources to submit offers in the energy market (must offer)?",
+        "expected": [
+          "m11",
+          "m18"
+        ],
+        "retrieved": [
+          "m18 p.58",
+          "m11 p.115",
+          "m11 p.114",
+          "m18 p.138"
+        ],
+        "hit@1": true,
+        "hit@4": true
+      }
+    ]
+  },
+  "extraction": {
+    "THREAD_SETTLEMENT": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "missed": [],
+      "extra": []
+    },
+    "THREAD_METER": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "missed": [],
+      "extra": []
+    }
+  },
+  "short_ticket_routing": [
+    {
+      "ticket": "Our letter of credit for $2,500,000.00 expires on 2026-11-15. What is the proces",
+      "label": "credit_collateral",
+      "confidence": 0.9809,
+      "queue": "Credit Risk",
+      "scores": {
+        "credit_collateral": 0.9809,
+        "billing_invoice": 0.0035,
+        "bid_offer_submission": 0.0032
+      }
+    },
+    {
+      "ticket": "Markets Gateway rejected our day-ahead offer for Battery Block A at the 2026-09-",
+      "label": "bid_offer_submission",
+      "confidence": 0.9809,
+      "queue": "Market Operations - Day-Ahead / Real-Time",
+      "scores": {
+        "bid_offer_submission": 0.9809,
+        "system_access": 0.0071,
+        "capacity_market": 0.0029
+      }
+    },
+    {
+      "ticket": "Invoice INV-551902 for September shows administrative charges 18% higher than Au",
+      "label": "billing_invoice",
+      "confidence": 0.9805,
+      "queue": "Billing",
+      "scores": {
+        "billing_invoice": 0.9805,
+        "credit_collateral": 0.0043,
+        "settlement_dispute": 0.0031
+      }
+    },
+    {
+      "ticket": "CT-3 tripped at HE14 on 2026-09-21 due to a transformer fault at BRIDGEPORT 138K",
+      "label": "outage_reporting",
+      "confidence": 0.9857,
+      "queue": "Outage Coordination",
+      "scores": {
+        "outage_reporting": 0.9857,
+        "meter_data_correction": 0.0026,
+        "bid_offer_submission": 0.0025
+      }
+    }
+  ],
+  "rag_answers": [
+    {
+      "question": "How is balancing operating reserve credit calculated for a generator dispatched in real time?",
+      "answer": "Balancing operating reserve credits for a generator dispatched in real time are calculated based on the difference between the actual real-time energy revenue and the day-ahead scheduled MWh multiplied by the five-minute real-time LMP at the generator's bus. Additionally, the reserve revenue is determined by subtracting the Market Revenue Neutrality Offset for those same products, plus the reactive services make-whole credits over the applicable real-time settlement intervals.",
+      "cited": false,
+      "sources": [
+        "PJM Manual 28 - Operating Agreement Accounting p.45",
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.78",
+        "PJM Manual 28 - Operating Agreement Accounting p.43",
+        "PJM Manual 28 - Operating Agreement Accounting p.45"
+      ]
+    },
+    {
+      "question": "What is the deadline for submitting a billing dispute?",
+      "answer": "The deadline for submitting a billing dispute is specified in the PJM Manual 29 - Billing, page 11, where it states: \"Adjustments may be made within this two (2) year timeframe, in accordance with PJM Operating Agreement, section 15.6.\" This means that adjustments to billing line items can be made up to two years after the original settlement on a billing statement.",
+      "cited": false,
+      "sources": [
+        "PJM Manual 29 - Billing p.11",
+        "PJM Manual 29 - Billing p.11",
+        "PJM Manual 29 - Billing p.8",
+        "PJM Manual 28 - Operating Agreement Accounting p.23"
+      ]
+    },
+    {
+      "question": "How are meter data corrections handled in the reconciliation process?",
+      "answer": "Meter data corrections are handled through the following steps:\n\n1. **Reconciliation**: At the end of each month, metering errors and corrections are reconciled.\n\n2. **Correction Calculation**: The monthly meter error correction charge (positive or negative deviation in energy amounts) is calculated by multiplying the deviation by the load-weighted average real-time Locational Marginal Price (LMP).\n\n3. **Adjustment**: If adjustments can be made to hourly tie readings to compensate for the error, these adjustments are made by the PJM Members involved, provided they provide corrected information according to PJM's accounting deadlines.\n\n4. **Accounting for Errors**: If PJM has already completed the accounting for the operating day when the error was identified, no further adjustments can be made unless agreed upon by both parties.\n\nThis process ensures accurate recording of energy flows and compensates for any discrepancies in metered data.",
+      "cited": false,
+      "sources": [
+        "PJM Manual 28 - Operating Agreement Accounting p.123",
+        "PJM Manual 28 - Operating Agreement Accounting p.122",
+        "PJM Manual 28 - Operating Agreement Accounting p.122",
+        "PJM Manual 28 - Operating Agreement Accounting p.107"
+      ]
+    },
+    {
+      "question": "What happens if a capacity resource does not perform during a performance assessment interval?",
+      "answer": "If a capacity resource fails to perform during a performance assessment interval, it is subject to a Non-Performance Charge. This charge applies to both Capacity Performance Resource commitments and Price Responsive Demand commitments. The Non-Performance Assessment compares each Capacity Resource's Expected Performance against its Actual Performance for each Performance Assessment Interval.",
+      "cited": false,
+      "sources": [
+        "PJM Manual 18 - Capacity Market p.245",
+        "PJM Manual 18 - Capacity Market p.179",
+        "PJM Manual 18 - Capacity Market p.188",
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.141"
+      ]
+    },
+    {
+      "question": "When is the day-ahead energy market offer submission deadline?",
+      "answer": "The day-ahead energy market offer submission deadline is at 11:00 AM on the same day.",
+      "cited": false,
+      "sources": [
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.250",
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.250",
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.22",
+        "PJM Manual 11 - Energy & Ancillary Services Market Operations p.92"
+      ]
+    }
+  ],
+  "triage_example": {
+    "classification": {
+      "label": "settlement_dispute",
+      "confidence": 0.9765,
+      "queue": "Settlements - Disputes",
+      "scores": {
+        "settlement_dispute": 0.9765,
+        "billing_invoice": 0.0059,
+        "capacity_market": 0.0036
+      }
+    },
+    "summary": {
+      "summary": "Blue Ridge Power is disputing the balancing operating reserve credit for its Westfall combustion turbine (Unit 2) for operating day 2026-08-14. The unit was dispatched by PJM above its economic minimum from HE15 to HE19 during the hot-weather alert.",
+      "input_words": 180
+    },
+    "extraction": {
+      "entities": [
+        {
+          "text": "J",
+          "type": "PER",
+          "score": 0.999
+        },
+        {
+          "text": ". Patel",
+          "type": "PER",
+          "score": 0.884
+        },
+        {
+          "text": "Settlements Analyst",
+          "type": "ORG",
+          "score": 0.966
+        },
+        {
+          "text": "Blue Ridge Power LLC",
+          "type": "ORG",
+          "score": 0.999
+        },
+        {
+          "text": "Market Ops",
+          "type": "ORG",
+          "score": 0.825
+        },
+        {
+          "text": "PJM",
+          "type": "ORG",
+          "score": 0.914
+        },
+        {
+          "text": "J",
+          "type": "PER",
+          "score": 0.998
+        },
+        {
+          "text": "Patel",
+          "type": "PER",
+          "score": 0.997
+        }
+      ],
+      "fields": {
+        "dates": [
+          "2026-08-14"
+        ],
+        "hour_ending": [
+          "HE15",
+          "HE19"
+        ],
+        "amounts_usd": [
+          "$48,350.00"
+        ],
+        "quantities": [
+          "1,050 MWh",
+          "210 MW"
+        ],
+        "invoice_ids": [
+          "INV-604118"
+        ],
+        "ticket_ids": [
+          "MO-48213"
+        ],
+        "pricing_nodes": [
+          "WESTFALL 230KV GEN1"
+        ]
+      }
+    },
+    "draft_reply": "Dear Blue Ridge Power,\n\nThank you for your dispute regarding the balancing operating reserve credit for Unit 2 of Westfall combustion turbine.\n\nThis matter has been assigned to the Reserves Team for investigation. We have reviewed the relevant sections of the PJM Manual and understand that the discrepancy arises because the current manual does not explicitly account for the use of actual five-minute interval real-time outputs for combustion turbines under certain conditions.\n\nTo resolve this issue, we need more details about the specific circumstances leading to the higher-than-normal costs incurred by Unit 2 during the specified hours. This includes:\n\n1. Detailed records of the dispatch decisions made by PJM for Unit 2.\n2. Information on the historical performance data of Unit 2's real-time output compared to its economic minimum.\n3. Any documentation related to the pricing mechanisms used for the balancing operation.\n\nOnce these additional details are provided, we will proceed with resolving the dispute according to the appropriate procedures outlined in the manuals.\n\nPlease provide the requested information as soon as possible so we can address this promptly.\n\nBest regards,\n[Your Name]\nAnalyst, Electricity Market Operations",
+    "backend": "local",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "sources": [
+      {
+        "source": "PJM Manual 28 - Operating Agreement Accounting",
+        "page": 172,
+        "score": 0.545
+      },
+      {
+        "source": "PJM Manual 11 - Energy & Ancillary Services Market Operations",
+        "page": 217,
+        "score": 0.5023
+      },
+      {
+        "source": "PJM Manual 28 - Operating Agreement Accounting",
+        "page": 41,
+        "score": 0.4996
+      }
+    ]
+  },
+  "latency_ms": {
+    "classify": {
+      "median": 32,
+      "max": 90
+    },
+    "summarize": {
+      "median": 3001,
+      "max": 3883
+    },
+    "extract": {
+      "median": 67,
+      "max": 282
+    },
+    "retrieve": {
+      "median": 22,
+      "max": 94
+    },
+    "rag_answer": {
+      "median": 32978,
+      "max": 65388
+    },
+    "triage_end_to_end": {
+      "median": 85587,
+      "max": 85587
+    }
+  }
+}

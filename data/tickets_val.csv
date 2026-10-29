@@ -1,0 +1,325 @@
+text,label
+"Can you explain line item 1250 on invoice INV-465145? Lakeshore Municipal Utility was charged $447,000.54 for transmission enhancement and we cannot trace it. Please advise.",billing_invoice
+"The balancing operating reserve credit for CT-3 on 2026-04-19 looks wrong; we expected roughly $179,000.06 but received nothing. Requesting a settlement review. Let us know if you need more data.",settlement_dispute
+Urgent: Load reconciliation for July shows 4225 MWh unaccounted for at WESTERN HUB; we suspect a duplicated meter channel in the data submission. Let us know if you need more data.,meter_data_correction
+"To whom it may concern, Can you explain line item 1250 on invoice INV-385410? Great Lakes Trading LP was charged $797.28 for transmission enhancement and we cannot trace it. Appreciate a quick response.",billing_invoice
+"Urgent: Our demand bid at WESTERN HUB for 2026-03-21 cleared at 7094 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly.",bid_offer_submission
+"To whom it may concern, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for MILLCREEK 69KV LOAD; is there an outage?",system_access
+Our ELCC class rating for Unit 2 changed and reduced our accredited capacity by 11%. Where is the methodology documented? Let us know if you need more data.,capacity_market
+"Hello Market Ops team, A capacity performance penalty of $662,000.12 was assessed to Great Lakes Trading LP for the event on 2026-07-19; we believe Unit 1 was on an approved outage. Thanks.",capacity_market
+"Good morning, The account manager role for Northern Neck Electric Coop needs to be transferred to J. Patel; the previous CAM has left the company. Appreciate a quick response.",system_access
+"Hi, Keystone Renewables Inc wants to cover a capacity shortfall of 563 MW through a bilateral transaction; how do we register it before the deadline on 2026-02-08? Let us know if you need more data.",capacity_market
+"Team, We have not received the weekly billing statement for the week ending 2026-08-07. Our AP team needs invoice INV-781765 to process payment. Appreciate a quick response.",billing_invoice
+"Hello Market Ops team, Please reopen settlement for 2026-02-28. The real-time deviation charge of $543,000.52 assessed to Piedmont Solar Holdings does not match our metered values at AEP ZONE. Thanks.",settlement_dispute
+"Team, Markets Gateway did not accept our virtual bids at DOM ZONE for 2026-02-09; the upload file with 83 MW of INCs returned a schema error. Appreciate a quick response.",bid_offer_submission
+"Good morning, Our letter of credit for $94,000.42 expires on 2026-05-07. What is the process to submit a replacement without breaching the credit limit? Please advise.",credit_collateral
+"Following up on our call, The account manager role for Allegheny Peak Energy needs to be transferred to L. Novak; the previous CAM has left the company. This is impacting our month-end close.",system_access
+The meter correction window for 2026-07-15 is closing. Blue Ridge Power LLC needs to replace estimated load values with actuals (2907 MWh total). Please advise.,meter_data_correction
+The account manager role for Northern Neck Electric Coop needs to be transferred to M. Alvarez; the previous CAM has left the company. Appreciate a quick response.,system_access
+"To whom it may concern, The FTR credit requirement for Chesapeake Storage Co jumped by 30% after the auction; we need clarity before posting additional collateral. Kind regards.",credit_collateral
+Markets Gateway did not accept our virtual bids at COMED HUB for 2026-05-21; the upload file with 419 MW of INCs returned a schema error. Thanks.,bid_offer_submission
+"Following up on our call, Our Power Meter submission for March contains a CT ratio error at BRIDGEPORT 138KV. Please allow a resubmission of hourly MWh values. Thanks.",meter_data_correction
+"To whom it may concern, R. Chen received a multi-factor authentication error on 2026-05-22 and cannot access the outage reporting tool. This is impacting our month-end close.",system_access
+"Team, Load reconciliation for July shows 5928 MWh unaccounted for at WESTERN HUB; we suspect a duplicated meter channel in the data submission.",meter_data_correction
+"Good morning, Our demand bid at MILLCREEK 69KV LOAD for 2026-07-28 cleared at 8558 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly.",bid_offer_submission
+"Good morning, The account manager role for Lakeshore Municipal Utility needs to be transferred to R. Chen; the previous CAM has left the company. Kind regards.",system_access
+The monthly invoice for October lists Great Lakes Trading LP under the wrong billing entity; please reissue INV-496672 with the correct legal name.,billing_invoice
+"Hi, Please reopen settlement for 2026-02-08. The real-time deviation charge of $763,000.53 assessed to Northern Neck Electric Coop does not match our metered values at PECO ZONE. This is impacting our month-end close.",settlement_dispute
+"Following up on our call, We need to correct meter data for Wind Farm Ph II at MILLCREEK 69KV LOAD for 2026-05-11. Revenue meter reported 1102 MWh for HE14 but the backup meter shows a 4% difference. Appreciate a quick response.",meter_data_correction
+"Urgent: Invoice INV-443281 for September for Blue Ridge Power LLC shows a total of $119.62, which does not match the sum of the billing line items. Please send a corrected invoice. Kind regards.",billing_invoice
+"Following up on our call, Chesapeake Storage Co reports a partial derate of 89 MW on Solar Array 4 starting HE12 on 2026-02-28 due to high ambient temperature. Appreciate a quick response.",outage_reporting
+Urgent: Load reconciliation for July shows 3442 MWh unaccounted for at DOM ZONE; we suspect a duplicated meter channel in the data submission.,meter_data_correction
+Urgent: We want to submit a sell offer for CT-3 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Let us know if you need more data.,capacity_market
+"Hello Market Ops team, We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Thanks.",capacity_market
+"Hello Market Ops team, Formal dispute: day-ahead congestion charges for Great Lakes Trading LP on 2026-09-18 were calculated using the wrong LMP at PECO ZONE. Impact is $568.49. Thanks.",settlement_dispute
+"Following up on our call, Please reclassify the 2026-04-28 event on Unit 1 from forced outage to an outside-management-control event; the cause was a transmission line failure at PECO ZONE. Appreciate a quick response.",outage_reporting
+"To whom it may concern, Delmarva Demand Response needs to confirm the capacity performance commitment of Battery Block A for the April delivery period; our installed capacity value appears reduced by 483 MW.",capacity_market
+Urgent: The outage ticket for Battery Block A still shows as active although the unit returned to service at HE15 on 2026-07-20.,outage_reporting
+"Hi, Our day-ahead offer for Unit 2 was rejected at the 2026-09-07 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Appreciate a quick response.",bid_offer_submission
+Urgent: Please reclassify the 2026-01-04 event on Unit 1 from forced outage to an outside-management-control event; the cause was a transmission line failure at WESTFALL 230KV GEN1. Please advise.,outage_reporting
+"Good morning, Please confirm receipt of the $7.31 cash collateral wire sent on 2026-04-08 and update our available credit.",credit_collateral
+"Team, The tie-line meter between our zone and PECO ZONE drifted on 2026-03-01; telemetry is off by 316 MW. How do we submit adjusted values? Thanks.",meter_data_correction
+"To whom it may concern, User S. Okafor at Great Lakes Trading LP cannot log in to Markets Gateway; the account was locked after the password reset on 2026-04-11. Please advise.",system_access
+"Hello Market Ops team, Ohio Valley Generation accidentally submitted an offer curve with a $229.43/MWh price cap for Unit 2. Can the offer be corrected before the day-ahead market clears? Please advise.",bid_offer_submission
+"Team, The balancing operating reserve credit for Unit 2 on 2026-06-25 looks wrong; we expected roughly $523.67 but received nothing. Requesting a settlement review. Thanks.",settlement_dispute
+Urgent: We need to correct meter data for Unit 1 at PECO ZONE for 2026-09-06. Revenue meter reported 3004 MWh for HE16 but the backup meter shows a 17% difference. Please advise.,meter_data_correction
+"Hi, We want to submit a sell offer for Unit 1 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Kind regards.",capacity_market
+"To whom it may concern, Chesapeake Storage Co reports a partial derate of 306 MW on Solar Array 4 starting HE13 on 2026-09-15 due to high ambient temperature. Kind regards.",outage_reporting
+"Good morning, Markets Gateway did not accept our virtual bids at WESTFALL 230KV GEN1 for 2026-06-01; the upload file with 117 MW of INCs returned a schema error. Appreciate a quick response.",bid_offer_submission
+"Hello Market Ops team, The lost opportunity cost credit for Wind Farm Ph II on 2026-04-09 appears understated by about $79.02; we were manually curtailed by 524 MW in HE24. Thanks.",settlement_dispute
+"Hello Market Ops team, R. Chen received a multi-factor authentication error on 2026-05-02 and cannot access the outage reporting tool. Appreciate a quick response.",system_access
+"Hello Market Ops team, We received a collateral call for Piedmont Solar Holdings of $373.47 on 2026-08-26. Please explain how the credit requirement was calculated.",credit_collateral
+"Please reopen settlement for 2026-03-20. The real-time deviation charge of $259,000.91 assessed to Piedmont Solar Holdings does not match our metered values at MILLCREEK 69KV LOAD. Thanks.",settlement_dispute
+"Following up on our call, The real-time offer update for Wind Farm Ph II for HE16 on 2026-06-18 did not take effect; the unit was still dispatched on the old curve. Appreciate a quick response.",bid_offer_submission
+"Following up on our call, We have not received the weekly billing statement for the week ending 2026-01-22. Our AP team needs invoice INV-936587 to process payment. Let us know if you need more data.",billing_invoice
+"Following up on our call, The monthly invoice for June lists Chesapeake Storage Co under the wrong billing entity; please reissue INV-868488 with the correct legal name. This is impacting our month-end close.",billing_invoice
+"Team, Our Power Meter submission for April contains a CT ratio error at PECO ZONE. Please allow a resubmission of hourly MWh values. Let us know if you need more data.",meter_data_correction
+We need to extend the planned outage for Battery Block A from 2026-05-15 by five days because of turbine inspection findings. Please advise.,outage_reporting
+"Hi, The lost opportunity cost credit for CT-3 on 2026-03-17 appears understated by about $578.92; we were manually curtailed by 295 MW in HE13. This is impacting our month-end close.",settlement_dispute
+"Hi, Our demand bid at AEP ZONE for 2026-03-04 cleared at 3742 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Let us know if you need more data.",bid_offer_submission
+"Good morning, Please reclassify the 2026-06-19 event on Wind Farm Ph II from forced outage to an outside-management-control event; the cause was a transmission line failure at EASTERN HUB. Appreciate a quick response.",outage_reporting
+Markets Gateway did not accept our virtual bids at WESTERN HUB for 2026-01-11; the upload file with 294 MW of INCs returned a schema error. Kind regards.,bid_offer_submission
+We were notified that Allegheny Peak Energy is approaching its credit limit of $370.11. Can virtual bidding screening be relaxed while we post cash?,credit_collateral
+Urgent: The outage ticket for Unit 2 still shows as active although the unit returned to service at HE6 on 2026-02-10. Let us know if you need more data.,outage_reporting
+"Good morning, Our demand bid at DOM ZONE for 2026-02-21 cleared at 6280 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Thanks.",bid_offer_submission
+Urgent: Load reconciliation for April shows 2138 MWh unaccounted for at MILLCREEK 69KV LOAD; we suspect a duplicated meter channel in the data submission. Let us know if you need more data.,meter_data_correction
+"Following up on our call, M. Alvarez received a multi-factor authentication error on 2026-04-11 and cannot access the outage reporting tool. Kind regards.",system_access
+"Following up on our call, Our Power Meter submission for October contains a CT ratio error at AEP ZONE. Please allow a resubmission of hourly MWh values. Please advise.",meter_data_correction
+Urgent: We have not received the weekly billing statement for the week ending 2026-05-16. Our AP team needs invoice INV-378607 to process payment. Appreciate a quick response.,billing_invoice
+"Team, L. Novak received a multi-factor authentication error on 2026-08-15 and cannot access the outage reporting tool. Let us know if you need more data.",system_access
+"Good morning, Our API client certificate for the settlements data feed expired on 2026-08-09 and all automated downloads are failing with 401 errors. Thanks.",system_access
+"Hello Market Ops team, We were notified that Blue Ridge Power LLC is approaching its credit limit of $148,000.69. Can virtual bidding screening be relaxed while we post cash? Thanks.",credit_collateral
+Urgent: Markets Gateway did not accept our virtual bids at EASTERN HUB for 2026-04-03; the upload file with 329 MW of INCs returned a schema error. Appreciate a quick response.,bid_offer_submission
+"Hi, The balancing operating reserve credit for Unit 1 on 2026-07-12 looks wrong; we expected roughly $244,000.78 but received nothing. Requesting a settlement review. Thanks.",settlement_dispute
+"To whom it may concern, The real-time offer update for Battery Block A for HE15 on 2026-07-11 did not take effect; the unit was still dispatched on the old curve. Let us know if you need more data.",bid_offer_submission
+"Team, Markets Gateway did not accept our virtual bids at WESTERN HUB for 2026-09-13; the upload file with 292 MW of INCs returned a schema error. Kind regards.",bid_offer_submission
+"Good morning, Please reopen settlement for 2026-05-26. The real-time deviation charge of $2.49 assessed to Tri-State Wind Partners does not match our metered values at WESTFALL 230KV GEN1.",settlement_dispute
+Urgent: Our maintenance outage request for Unit 2 on 2026-05-06 was denied for reliability reasons; can we reschedule? Kind regards.,outage_reporting
+"Our letter of credit for $406,000.39 expires on 2026-03-14. What is the process to submit a replacement without breaching the credit limit? Thanks.",credit_collateral
+"Hi, The real-time offer update for Solar Array 4 for HE13 on 2026-05-20 did not take effect; the unit was still dispatched on the old curve. Appreciate a quick response.",bid_offer_submission
+"Urgent: Our letter of credit for $807,000.63 expires on 2026-02-20. What is the process to submit a replacement without breaching the credit limit? Kind regards.",credit_collateral
+"Good morning, We are disputing the real-time energy settlement for Delmarva Demand Response at DOM ZONE on 2026-06-15 HE17. Our shadow settlement shows a variance of $124.28 versus the posted charge.",settlement_dispute
+"Team, The real-time offer update for Battery Block A for HE16 on 2026-03-24 did not take effect; the unit was still dispatched on the old curve. Please advise.",bid_offer_submission
+"Following up on our call, Please reclassify the 2026-09-19 event on Wind Farm Ph II from forced outage to an outside-management-control event; the cause was a transmission line failure at SUNBURY 500KV. Please advise.",outage_reporting
+Urgent: We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Appreciate a quick response.,capacity_market
+"Hi, The real-time offer update for Solar Array 4 for HE20 on 2026-02-20 did not take effect; the unit was still dispatched on the old curve.",bid_offer_submission
+Ohio Valley Generation accidentally submitted an offer curve with a $993.38/MWh price cap for Battery Block A. Can the offer be corrected before the day-ahead market clears? This is impacting our month-end close.,bid_offer_submission
+The monthly invoice for January lists Susquehanna Hydro LLC under the wrong billing entity; please reissue INV-849367 with the correct legal name. Appreciate a quick response.,billing_invoice
+Delmarva Demand Response wants to cover a capacity shortfall of 568 MW through a bilateral transaction; how do we register it before the deadline on 2026-04-27? Appreciate a quick response.,capacity_market
+Please reclassify the 2026-02-17 event on Wind Farm Ph II from forced outage to an outside-management-control event; the cause was a transmission line failure at AEP ZONE. Please advise.,outage_reporting
+"Hello Market Ops team, We need to extend the planned outage for Battery Block A from 2026-03-24 by five days because of turbine inspection findings.",outage_reporting
+The real-time offer update for CT-3 for HE1 on 2026-09-07 did not take effect; the unit was still dispatched on the old curve. Kind regards.,bid_offer_submission
+"Team, Please confirm receipt of the $430,000.50 cash collateral wire sent on 2026-03-27 and update our available credit. Let us know if you need more data.",credit_collateral
+"Following up on our call, The monthly invoice for July lists Delmarva Demand Response under the wrong billing entity; please reissue INV-620580 with the correct legal name. This is impacting our month-end close.",billing_invoice
+"Good morning, We have not received the weekly billing statement for the week ending 2026-09-01. Our AP team needs invoice INV-854942 to process payment. Please advise.",billing_invoice
+"Good morning, We received a collateral call for Ohio Valley Generation of $559,000.04 on 2026-09-02. Please explain how the credit requirement was calculated. Let us know if you need more data.",credit_collateral
+Urgent: We were notified that Ohio Valley Generation is approaching its credit limit of $173.21. Can virtual bidding screening be relaxed while we post cash? Please advise.,credit_collateral
+"Hello Market Ops team, Our finance team needs a breakdown of the $130,000.67 in administrative charges on invoice INV-373743; the total increased 2% month over month. Kind regards.",billing_invoice
+"To whom it may concern, Can you explain line item 1250 on invoice INV-625245? Delmarva Demand Response was charged $334.98 for transmission enhancement and we cannot trace it.",billing_invoice
+Urgent: Please reclassify the 2026-03-04 event on Unit 1 from forced outage to an outside-management-control event; the cause was a transmission line failure at SUNBURY 500KV. This is impacting our month-end close.,outage_reporting
+"Following up on our call, The balancing operating reserve credit for CT-3 on 2026-07-11 looks wrong; we expected roughly $108.42 but received nothing. Requesting a settlement review. Thanks.",settlement_dispute
+Unit 1 tripped at HE11 on 2026-04-07 due to a transformer fault at MILLCREEK 69KV LOAD; we have submitted a forced outage ticket for 457 MW. Thanks.,outage_reporting
+Urgent: The tie-line meter between our zone and WESTFALL 230KV GEN1 drifted on 2026-06-15; telemetry is off by 201 MW. How do we submit adjusted values? Thanks.,meter_data_correction
+Urgent: The lost opportunity cost credit for Wind Farm Ph II on 2026-01-21 appears understated by about $65.89; we were manually curtailed by 79 MW in HE24. Thanks.,settlement_dispute
+"Hi, Our day-ahead offer for Solar Array 4 was rejected at the 2026-06-24 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Let us know if you need more data.",bid_offer_submission
+"Team, Requesting a capacity transfer of 7 MW from Unit 2 to a replacement resource for the remainder of the delivery year. Let us know if you need more data.",capacity_market
+"Following up on our call, User S. Okafor at Allegheny Peak Energy cannot log in to Markets Gateway; the account was locked after the password reset on 2026-01-18. Let us know if you need more data.",system_access
+"Following up on our call, Submitting corrected interval meter values for Allegheny Peak Energy; the original upload on 2026-02-20 had HE4 through HE22 zeroed out due to an RTU communication failure. Kind regards.",meter_data_correction
+"To whom it may concern, We are disputing the real-time energy settlement for Lakeshore Municipal Utility at SUNBURY 500KV on 2026-02-13 HE19. Our shadow settlement shows a variance of $261.90 versus the posted charge.",settlement_dispute
+"Team, The real-time offer update for Battery Block A for HE10 on 2026-04-06 did not take effect; the unit was still dispatched on the old curve.",bid_offer_submission
+Urgent: Payment for invoice INV-313741 was wired on 2026-07-15 but our account still shows $801.95 outstanding. Thanks.,billing_invoice
+"Good morning, Our make-whole payment for Wind Farm Ph II for operating day 2026-06-25 was not credited. The unit was dispatched by PJM above its economic minimum from HE10 to HE13. Please advise.",settlement_dispute
+Unit 1 tripped at HE3 on 2026-05-09 due to a transformer fault at WESTFALL 230KV GEN1; we have submitted a forced outage ticket for 120 MW. Appreciate a quick response.,outage_reporting
+"Hi, Our day-ahead offer for Wind Farm Ph II was rejected at the 2026-02-24 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. This is impacting our month-end close.",bid_offer_submission
+"Team, The FTR credit requirement for Keystone Renewables Inc jumped by 16% after the auction; we need clarity before posting additional collateral. Let us know if you need more data.",credit_collateral
+"Hello Market Ops team, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for SUNBURY 500KV; is there an outage? Thanks.",system_access
+"Hi, We are disputing the real-time energy settlement for Great Lakes Trading LP at WESTERN HUB on 2026-01-28 HE4. Our shadow settlement shows a variance of $643.87 versus the posted charge. This is impacting our month-end close.",settlement_dispute
+"To whom it may concern, The account manager role for Blue Ridge Power LLC needs to be transferred to S. Okafor; the previous CAM has left the company. Appreciate a quick response.",system_access
+"Hi, The outage ticket for Solar Array 4 still shows as active although the unit returned to service at HE11 on 2026-02-16. Thanks.",outage_reporting
+"Good morning, User S. Okafor at Lakeshore Municipal Utility cannot log in to Markets Gateway; the account was locked after the password reset on 2026-09-13. Thanks.",system_access
+"Good morning, Formal dispute: day-ahead congestion charges for Blue Ridge Power LLC on 2026-07-05 were calculated using the wrong LMP at WESTERN HUB. Impact is $209,000.64. Kind regards.",settlement_dispute
+"Hi, We received a collateral call for Tri-State Wind Partners of $853.04 on 2026-07-28. Please explain how the credit requirement was calculated. Thanks.",credit_collateral
+"Team, Tri-State Wind Partners reports a partial derate of 28 MW on Battery Block A starting HE23 on 2026-06-09 due to high ambient temperature. Appreciate a quick response.",outage_reporting
+"Following up on our call, Susquehanna Hydro LLC would like to increase its unsecured credit allowance; attached are our latest audited financials. Thanks.",credit_collateral
+Battery Block A tripped at HE21 on 2026-02-09 due to a transformer fault at SUNBURY 500KV; we have submitted a forced outage ticket for 260 MW. This is impacting our month-end close.,outage_reporting
+"To whom it may concern, Our API client certificate for the settlements data feed expired on 2026-08-26 and all automated downloads are failing with 401 errors. Appreciate a quick response.",system_access
+"Following up on our call, We are disputing the real-time energy settlement for Lakeshore Municipal Utility at AEP ZONE on 2026-01-25 HE4. Our shadow settlement shows a variance of $225.89 versus the posted charge. Kind regards.",settlement_dispute
+"Hi, Our Power Meter submission for July contains a CT ratio error at AEP ZONE. Please allow a resubmission of hourly MWh values. Let us know if you need more data.",meter_data_correction
+"Hello Market Ops team, Submitting corrected interval meter values for Piedmont Solar Holdings; the original upload on 2026-02-27 had HE23 through HE15 zeroed out due to an RTU communication failure. Please advise.",meter_data_correction
+"Team, Our Power Meter submission for February contains a CT ratio error at PECO ZONE. Please allow a resubmission of hourly MWh values. Please advise.",meter_data_correction
+"Team, The balancing operating reserve credit for Battery Block A on 2026-05-01 looks wrong; we expected roughly $797.77 but received nothing. Requesting a settlement review. Kind regards.",settlement_dispute
+"Good morning, Our maintenance outage request for Wind Farm Ph II on 2026-06-09 was denied for reliability reasons; can we reschedule? Kind regards.",outage_reporting
+Urgent: Delmarva Demand Response wants to cover a capacity shortfall of 165 MW through a bilateral transaction; how do we register it before the deadline on 2026-02-03?,capacity_market
+Urgent: Can you explain line item 1250 on invoice INV-610421? Northern Neck Electric Coop was charged $251.02 for transmission enhancement and we cannot trace it. Appreciate a quick response.,billing_invoice
+"Team, We need to update the economic maximum for Solar Array 4 to 83 MW starting 2026-04-27, but the parameter-limited schedule will not save. Kind regards.",bid_offer_submission
+Can you explain line item 1250 on invoice INV-955316? Northern Neck Electric Coop was charged $40.07 for transmission enhancement and we cannot trace it.,billing_invoice
+"Hi, The lost opportunity cost credit for Unit 1 on 2026-05-20 appears understated by about $124,000.27; we were manually curtailed by 473 MW in HE7. Appreciate a quick response.",settlement_dispute
+"Team, The real-time offer update for Wind Farm Ph II for HE22 on 2026-01-11 did not take effect; the unit was still dispatched on the old curve. This is impacting our month-end close.",bid_offer_submission
+"To whom it may concern, We need to extend the planned outage for Unit 2 from 2026-08-24 by five days because of turbine inspection findings. Please advise.",outage_reporting
+"Hello Market Ops team, Payment for invoice INV-508117 was wired on 2026-07-22 but our account still shows $282,000.84 outstanding. Thanks.",billing_invoice
+"A capacity performance penalty of $382,000.22 was assessed to Allegheny Peak Energy for the event on 2026-04-08; we believe Wind Farm Ph II was on an approved outage. Let us know if you need more data.",capacity_market
+"Good morning, Our finance team needs a breakdown of the $504,000.25 in administrative charges on invoice INV-838265; the total increased 3% month over month. Please advise.",billing_invoice
+Urgent: We were notified that Chesapeake Storage Co is approaching its credit limit of $432.27. Can virtual bidding screening be relaxed while we post cash? Thanks.,credit_collateral
+"Good morning, Ohio Valley Generation reports a partial derate of 161 MW on Wind Farm Ph II starting HE2 on 2026-09-03 due to high ambient temperature. Kind regards.",outage_reporting
+"Good morning, Lakeshore Municipal Utility wants to cover a capacity shortfall of 248 MW through a bilateral transaction; how do we register it before the deadline on 2026-01-28? Appreciate a quick response.",capacity_market
+L. Novak received a multi-factor authentication error on 2026-09-08 and cannot access the outage reporting tool. Let us know if you need more data.,system_access
+"We were notified that Northern Neck Electric Coop is approaching its credit limit of $554,000.72. Can virtual bidding screening be relaxed while we post cash?",credit_collateral
+"Hello Market Ops team, User S. Okafor at Chesapeake Storage Co cannot log in to Markets Gateway; the account was locked after the password reset on 2026-04-23. Kind regards.",system_access
+"Following up on our call, Blue Ridge Power LLC accidentally submitted an offer curve with a $1560.43/MWh price cap for Unit 2. Can the offer be corrected before the day-ahead market clears? This is impacting our month-end close.",bid_offer_submission
+"Hello Market Ops team, User L. Novak at Tri-State Wind Partners cannot log in to Markets Gateway; the account was locked after the password reset on 2026-09-22. Let us know if you need more data.",system_access
+"To whom it may concern, Our make-whole payment for Wind Farm Ph II for operating day 2026-01-19 was not credited. The unit was dispatched by PJM above its economic minimum from HE21 to HE22. Let us know if you need more data.",settlement_dispute
+"Team, The meter correction window for 2026-02-06 is closing. Ohio Valley Generation needs to replace estimated load values with actuals (5243 MWh total). This is impacting our month-end close.",meter_data_correction
+"Hello Market Ops team, The tie-line meter between our zone and BRIDGEPORT 138KV drifted on 2026-08-22; telemetry is off by 371 MW. How do we submit adjusted values? Appreciate a quick response.",meter_data_correction
+"To whom it may concern, The lost opportunity cost credit for Solar Array 4 on 2026-01-06 appears understated by about $6.18; we were manually curtailed by 487 MW in HE13.",settlement_dispute
+The balancing operating reserve credit for Wind Farm Ph II on 2026-01-01 looks wrong; we expected roughly $217.97 but received nothing. Requesting a settlement review. Appreciate a quick response.,settlement_dispute
+"Team, Chesapeake Storage Co wants to cover a capacity shortfall of 394 MW through a bilateral transaction; how do we register it before the deadline on 2026-06-14? Please advise.",capacity_market
+"Team, Invoice INV-433864 for February for Allegheny Peak Energy shows a total of $62,000.10, which does not match the sum of the billing line items. Please send a corrected invoice. Let us know if you need more data.",billing_invoice
+"Hi, Allegheny Peak Energy would like to increase its unsecured credit allowance; attached are our latest audited financials.",credit_collateral
+"Good morning, Chesapeake Storage Co accidentally submitted an offer curve with a $1443.14/MWh price cap for Battery Block A. Can the offer be corrected before the day-ahead market clears? Let us know if you need more data.",bid_offer_submission
+"Team, We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Appreciate a quick response.",capacity_market
+"Good morning, Please confirm receipt of the $326,000.29 cash collateral wire sent on 2026-01-07 and update our available credit. Kind regards.",credit_collateral
+"To whom it may concern, The FTR credit requirement for Northern Neck Electric Coop jumped by 24% after the auction; we need clarity before posting additional collateral. Please advise.",credit_collateral
+"Team, Please reclassify the 2026-08-28 event on Wind Farm Ph II from forced outage to an outside-management-control event; the cause was a transmission line failure at SUNBURY 500KV. Thanks.",outage_reporting
+"Hi, Our Power Meter submission for April contains a CT ratio error at SUNBURY 500KV. Please allow a resubmission of hourly MWh values.",meter_data_correction
+"Hi, The real-time offer update for Solar Array 4 for HE19 on 2026-07-11 did not take effect; the unit was still dispatched on the old curve. Please advise.",bid_offer_submission
+"To whom it may concern, Our day-ahead offer for Battery Block A was rejected at the 2026-05-20 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. This is impacting our month-end close.",bid_offer_submission
+"To whom it may concern, Our maintenance outage request for Wind Farm Ph II on 2026-07-10 was denied for reliability reasons; can we reschedule? Kind regards.",outage_reporting
+"Team, Our ELCC class rating for Solar Array 4 changed and reduced our accredited capacity by 29%. Where is the methodology documented?",capacity_market
+"Hello Market Ops team, Please grant L. Novak read access to the billing and settlement reports for Blue Ridge Power LLC; the access request has been pending since 2026-08-13. Please advise.",system_access
+"Hello Market Ops team, Our letter of credit for $109.33 expires on 2026-08-11. What is the process to submit a replacement without breaching the credit limit? This is impacting our month-end close.",credit_collateral
+"Hello Market Ops team, Our finance team needs a breakdown of the $922.22 in administrative charges on invoice INV-685302; the total increased 26% month over month. This is impacting our month-end close.",billing_invoice
+"The lost opportunity cost credit for Unit 1 on 2026-02-03 appears understated by about $814,000.71; we were manually curtailed by 77 MW in HE2.",settlement_dispute
+"Hello Market Ops team, Our ELCC class rating for Unit 1 changed and reduced our accredited capacity by 29%. Where is the methodology documented? Kind regards.",capacity_market
+Battery Block A tripped at HE18 on 2026-01-15 due to a transformer fault at WESTFALL 230KV GEN1; we have submitted a forced outage ticket for 350 MW. Thanks.,outage_reporting
+"Good morning, Submitting corrected interval meter values for Susquehanna Hydro LLC; the original upload on 2026-01-12 had HE3 through HE23 zeroed out due to an RTU communication failure. Please advise.",meter_data_correction
+Urgent: The account manager role for Allegheny Peak Energy needs to be transferred to M. Alvarez; the previous CAM has left the company. Appreciate a quick response.,system_access
+Our make-whole payment for Unit 2 for operating day 2026-09-20 was not credited. The unit was dispatched by PJM above its economic minimum from HE17 to HE7.,settlement_dispute
+"Hi, Payment for invoice INV-300982 was wired on 2026-01-06 but our account still shows $739,000.43 outstanding. Thanks.",billing_invoice
+"Following up on our call, We were notified that Ohio Valley Generation is approaching its credit limit of $280,000.55. Can virtual bidding screening be relaxed while we post cash? Kind regards.",credit_collateral
+"Following up on our call, Please confirm receipt of the $710,000.16 cash collateral wire sent on 2026-08-20 and update our available credit. Thanks.",credit_collateral
+"To whom it may concern, Chesapeake Storage Co would like to increase its unsecured credit allowance; attached are our latest audited financials. This is impacting our month-end close.",credit_collateral
+"To whom it may concern, The balancing operating reserve credit for Battery Block A on 2026-06-21 looks wrong; we expected roughly $894.79 but received nothing. Requesting a settlement review. Kind regards.",settlement_dispute
+"Hello Market Ops team, Submitting corrected interval meter values for Northern Neck Electric Coop; the original upload on 2026-05-20 had HE2 through HE11 zeroed out due to an RTU communication failure. Thanks.",meter_data_correction
+Urgent: We need to correct meter data for Wind Farm Ph II at DOM ZONE for 2026-01-11. Revenue meter reported 2519 MWh for HE18 but the backup meter shows a 40% difference.,meter_data_correction
+"Following up on our call, Payment for invoice INV-999996 was wired on 2026-03-02 but our account still shows $552.16 outstanding. Let us know if you need more data.",billing_invoice
+"Good morning, Formal dispute: day-ahead congestion charges for Northern Neck Electric Coop on 2026-02-14 were calculated using the wrong LMP at AEP ZONE. Impact is $484.87. Please advise.",settlement_dispute
+Urgent: The FTR credit requirement for Northern Neck Electric Coop jumped by 23% after the auction; we need clarity before posting additional collateral. Let us know if you need more data.,credit_collateral
+"Hello Market Ops team, We are disputing the real-time energy settlement for Blue Ridge Power LLC at DOM ZONE on 2026-04-05 HE24. Our shadow settlement shows a variance of $693.75 versus the posted charge. Let us know if you need more data.",settlement_dispute
+We are disputing the real-time energy settlement for Lakeshore Municipal Utility at WESTERN HUB on 2026-07-12 HE21. Our shadow settlement shows a variance of $725.55 versus the posted charge. Let us know if you need more data.,settlement_dispute
+A capacity performance penalty of $572.53 was assessed to Susquehanna Hydro LLC for the event on 2026-07-23; we believe Wind Farm Ph II was on an approved outage. Appreciate a quick response.,capacity_market
+"To whom it may concern, We received a collateral call for Allegheny Peak Energy of $837,000.06 on 2026-01-24. Please explain how the credit requirement was calculated. Let us know if you need more data.",credit_collateral
+"Good morning, Invoice INV-840581 for October for Tri-State Wind Partners shows a total of $543.60, which does not match the sum of the billing line items. Please send a corrected invoice. Let us know if you need more data.",billing_invoice
+We need to correct meter data for CT-3 at MILLCREEK 69KV LOAD for 2026-01-10. Revenue meter reported 8386 MWh for HE8 but the backup meter shows a 8% difference. Thanks.,meter_data_correction
+"Following up on our call, Our finance team needs a breakdown of the $552.69 in administrative charges on invoice INV-584153; the total increased 8% month over month. Appreciate a quick response.",billing_invoice
+"Urgent: The balancing operating reserve credit for Unit 2 on 2026-04-19 looks wrong; we expected roughly $877,000.05 but received nothing. Requesting a settlement review. Please advise.",settlement_dispute
+"Hi, We want to submit a sell offer for Unit 2 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Kind regards.",capacity_market
+Urgent: We are seeing HTTP 503 errors from the data miner API when pulling LMP data for WESTERN HUB; is there an outage? Thanks.,system_access
+"Good morning, Our API client certificate for the settlements data feed expired on 2026-07-18 and all automated downloads are failing with 401 errors. This is impacting our month-end close.",system_access
+"Hi, Please confirm receipt of the $600.49 cash collateral wire sent on 2026-03-27 and update our available credit.",credit_collateral
+"Team, The FTR credit requirement for Lakeshore Municipal Utility jumped by 14% after the auction; we need clarity before posting additional collateral. This is impacting our month-end close.",credit_collateral
+"Team, We need to update the economic maximum for Wind Farm Ph II to 166 MW starting 2026-03-11, but the parameter-limited schedule will not save. This is impacting our month-end close.",bid_offer_submission
+J. Patel received a multi-factor authentication error on 2026-06-22 and cannot access the outage reporting tool. Let us know if you need more data.,system_access
+"Hello Market Ops team, Ohio Valley Generation needs to confirm the capacity performance commitment of Wind Farm Ph II for the September delivery period; our installed capacity value appears reduced by 599 MW.",capacity_market
+"To whom it may concern, Can you explain line item 1250 on invoice INV-955408? Keystone Renewables Inc was charged $475,000.90 for transmission enhancement and we cannot trace it. This is impacting our month-end close.",billing_invoice
+"Hello Market Ops team, We want to submit a sell offer for Unit 1 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Let us know if you need more data.",capacity_market
+"Hello Market Ops team, We want to submit a sell offer for Wind Farm Ph II in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system.",capacity_market
+"Team, Submitting corrected interval meter values for Blue Ridge Power LLC; the original upload on 2026-08-18 had HE1 through HE20 zeroed out due to an RTU communication failure. Please advise.",meter_data_correction
+Urgent: Our ELCC class rating for Battery Block A changed and reduced our accredited capacity by 36%. Where is the methodology documented? Kind regards.,capacity_market
+"Following up on our call, Our maintenance outage request for CT-3 on 2026-04-20 was denied for reliability reasons; can we reschedule? Appreciate a quick response.",outage_reporting
+"Hi, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for WESTFALL 230KV GEN1; is there an outage? Kind regards.",system_access
+"Urgent: Formal dispute: day-ahead congestion charges for Great Lakes Trading LP on 2026-09-05 were calculated using the wrong LMP at BRIDGEPORT 138KV. Impact is $166,000.90. Thanks.",settlement_dispute
+"To whom it may concern, The real-time offer update for CT-3 for HE15 on 2026-07-13 did not take effect; the unit was still dispatched on the old curve. Please advise.",bid_offer_submission
+"Team, Our finance team needs a breakdown of the $604.96 in administrative charges on invoice INV-568641; the total increased 31% month over month.",billing_invoice
+"To whom it may concern, We were notified that Ohio Valley Generation is approaching its credit limit of $668,000.77. Can virtual bidding screening be relaxed while we post cash? Thanks.",credit_collateral
+"Hi, Submitting corrected interval meter values for Blue Ridge Power LLC; the original upload on 2026-01-05 had HE24 through HE16 zeroed out due to an RTU communication failure. Appreciate a quick response.",meter_data_correction
+"Hello Market Ops team, Tri-State Wind Partners would like to increase its unsecured credit allowance; attached are our latest audited financials. Appreciate a quick response.",credit_collateral
+"To whom it may concern, Our demand bid at SUNBURY 500KV for 2026-09-17 cleared at 2742 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. This is impacting our month-end close.",bid_offer_submission
+The outage ticket for Solar Array 4 still shows as active although the unit returned to service at HE16 on 2026-07-18. Appreciate a quick response.,outage_reporting
+"To whom it may concern, Load reconciliation for February shows 695 MWh unaccounted for at SUNBURY 500KV; we suspect a duplicated meter channel in the data submission. This is impacting our month-end close.",meter_data_correction
+"Team, The meter correction window for 2026-07-20 is closing. Delmarva Demand Response needs to replace estimated load values with actuals (2797 MWh total). Appreciate a quick response.",meter_data_correction
+"Good morning, Can you explain line item 1250 on invoice INV-757501? Lakeshore Municipal Utility was charged $46,000.42 for transmission enhancement and we cannot trace it. Let us know if you need more data.",billing_invoice
+"Hi, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for PECO ZONE; is there an outage? Let us know if you need more data.",system_access
+"Following up on our call, CT-3 tripped at HE8 on 2026-08-05 due to a transformer fault at MILLCREEK 69KV LOAD; we have submitted a forced outage ticket for 218 MW. Kind regards.",outage_reporting
+"Good morning, Payment for invoice INV-367188 was wired on 2026-04-21 but our account still shows $225.14 outstanding. Kind regards.",billing_invoice
+"Team, We have not received the weekly billing statement for the week ending 2026-06-01. Our AP team needs invoice INV-430583 to process payment. Kind regards.",billing_invoice
+"Following up on our call, We need to extend the planned outage for Unit 1 from 2026-09-26 by five days because of turbine inspection findings. Kind regards.",outage_reporting
+"Team, Please reopen settlement for 2026-07-21. The real-time deviation charge of $32.47 assessed to Ohio Valley Generation does not match our metered values at WESTERN HUB. This is impacting our month-end close.",settlement_dispute
+"A capacity performance penalty of $49,000.48 was assessed to Blue Ridge Power LLC for the event on 2026-03-06; we believe Unit 2 was on an approved outage. Please advise.",capacity_market
+Please reclassify the 2026-05-27 event on Unit 2 from forced outage to an outside-management-control event; the cause was a transmission line failure at AEP ZONE. This is impacting our month-end close.,outage_reporting
+"Following up on our call, Can you explain line item 1250 on invoice INV-771231? Allegheny Peak Energy was charged $252,000.22 for transmission enhancement and we cannot trace it.",billing_invoice
+"Good morning, J. Patel received a multi-factor authentication error on 2026-03-19 and cannot access the outage reporting tool.",system_access
+"Following up on our call, The lost opportunity cost credit for Wind Farm Ph II on 2026-06-25 appears understated by about $754.84; we were manually curtailed by 126 MW in HE23. This is impacting our month-end close.",settlement_dispute
+"Following up on our call, Our demand bid at SUNBURY 500KV for 2026-04-19 cleared at 6167 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Let us know if you need more data.",bid_offer_submission
+"Hello Market Ops team, We are disputing the real-time energy settlement for Blue Ridge Power LLC at WESTERN HUB on 2026-02-03 HE18. Our shadow settlement shows a variance of $519,000.16 versus the posted charge. Kind regards.",settlement_dispute
+"Good morning, We need to update the economic maximum for Solar Array 4 to 503 MW starting 2026-07-09, but the parameter-limited schedule will not save. Thanks.",bid_offer_submission
+"Urgent: A capacity performance penalty of $900,000.79 was assessed to Great Lakes Trading LP for the event on 2026-01-19; we believe Unit 1 was on an approved outage. Kind regards.",capacity_market
+"Team, Formal dispute: day-ahead congestion charges for Northern Neck Electric Coop on 2026-07-20 were calculated using the wrong LMP at AEP ZONE. Impact is $510,000.82. Kind regards.",settlement_dispute
+"Following up on our call, The tie-line meter between our zone and WESTFALL 230KV GEN1 drifted on 2026-02-27; telemetry is off by 650 MW. How do we submit adjusted values? This is impacting our month-end close.",meter_data_correction
+"To whom it may concern, The monthly invoice for June lists Northern Neck Electric Coop under the wrong billing entity; please reissue INV-381356 with the correct legal name. Let us know if you need more data.",billing_invoice
+Urgent: We need to extend the planned outage for Solar Array 4 from 2026-06-10 by five days because of turbine inspection findings.,outage_reporting
+"Good morning, Please reclassify the 2026-03-25 event on Unit 2 from forced outage to an outside-management-control event; the cause was a transmission line failure at HARMONY SOLAR 34KV. This is impacting our month-end close.",outage_reporting
+"Hello Market Ops team, A capacity performance penalty of $146.12 was assessed to Ohio Valley Generation for the event on 2026-06-24; we believe CT-3 was on an approved outage. Thanks.",capacity_market
+"Good morning, We need to correct meter data for Wind Farm Ph II at WESTERN HUB for 2026-06-12. Revenue meter reported 5991 MWh for HE6 but the backup meter shows a 38% difference. Kind regards.",meter_data_correction
+Tri-State Wind Partners reports a partial derate of 355 MW on Solar Array 4 starting HE21 on 2026-01-15 due to high ambient temperature. Please advise.,outage_reporting
+"Hi, We have not received the weekly billing statement for the week ending 2026-09-02. Our AP team needs invoice INV-162908 to process payment. Thanks.",billing_invoice
+We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system.,capacity_market
+"Good morning, Our ELCC class rating for Unit 1 changed and reduced our accredited capacity by 30%. Where is the methodology documented?",capacity_market
+"Hello Market Ops team, Delmarva Demand Response wants to cover a capacity shortfall of 286 MW through a bilateral transaction; how do we register it before the deadline on 2026-01-03? Please advise.",capacity_market
+"Good morning, The monthly invoice for August lists Keystone Renewables Inc under the wrong billing entity; please reissue INV-135430 with the correct legal name. Please advise.",billing_invoice
+"To whom it may concern, Our demand bid at HARMONY SOLAR 34KV for 2026-09-10 cleared at 4905 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Kind regards.",bid_offer_submission
+"Hello Market Ops team, Our finance team needs a breakdown of the $461,000.35 in administrative charges on invoice INV-544392; the total increased 36% month over month.",billing_invoice
+"Team, We need to correct meter data for Wind Farm Ph II at MILLCREEK 69KV LOAD for 2026-05-13. Revenue meter reported 7846 MWh for HE8 but the backup meter shows a 27% difference. This is impacting our month-end close.",meter_data_correction
+The real-time offer update for Solar Array 4 for HE22 on 2026-01-06 did not take effect; the unit was still dispatched on the old curve. Kind regards.,bid_offer_submission
+"To whom it may concern, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for COMED HUB; is there an outage? Please advise.",system_access
+Our maintenance outage request for CT-3 on 2026-04-04 was denied for reliability reasons; can we reschedule? Thanks.,outage_reporting
+"To whom it may concern, We are disputing the real-time energy settlement for Tri-State Wind Partners at HARMONY SOLAR 34KV on 2026-07-21 HE15. Our shadow settlement shows a variance of $272.31 versus the posted charge. Please advise.",settlement_dispute
+"Following up on our call, Our ELCC class rating for Battery Block A changed and reduced our accredited capacity by 35%. Where is the methodology documented? Appreciate a quick response.",capacity_market
+"Following up on our call, Our day-ahead offer for CT-3 was rejected at the 2026-07-01 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Kind regards.",bid_offer_submission
+"Team, The balancing operating reserve credit for Unit 2 on 2026-01-25 looks wrong; we expected roughly $591.97 but received nothing. Requesting a settlement review. Kind regards.",settlement_dispute
+"To whom it may concern, Our make-whole payment for Battery Block A for operating day 2026-04-14 was not credited. The unit was dispatched by PJM above its economic minimum from HE7 to HE16.",settlement_dispute
+"Hi, The tie-line meter between our zone and MILLCREEK 69KV LOAD drifted on 2026-01-05; telemetry is off by 602 MW. How do we submit adjusted values? Thanks.",meter_data_correction
+"Following up on our call, We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system. Appreciate a quick response.",capacity_market
+Urgent: Submitting corrected interval meter values for Blue Ridge Power LLC; the original upload on 2026-03-06 had HE5 through HE6 zeroed out due to an RTU communication failure.,meter_data_correction
+"Our demand bid at PECO ZONE for 2026-03-15 cleared at 4839 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Let us know if you need more data.",bid_offer_submission
+"To whom it may concern, Please grant S. Okafor read access to the billing and settlement reports for Susquehanna Hydro LLC; the access request has been pending since 2026-06-15.",system_access
+"Team, We have not received the weekly billing statement for the week ending 2026-08-08. Our AP team needs invoice INV-876319 to process payment. Thanks.",billing_invoice
+"Following up on our call, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for COMED HUB; is there an outage? Appreciate a quick response.",system_access
+"To whom it may concern, Our day-ahead offer for Solar Array 4 was rejected at the 2026-05-15 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline.",bid_offer_submission
+"Urgent: Our demand bid at SUNBURY 500KV for 2026-04-27 cleared at 2032 MWh, far above what we entered; we suspect the bid segments were parsed incorrectly. Thanks.",bid_offer_submission
+"To whom it may concern, D. Brooks received a multi-factor authentication error on 2026-08-25 and cannot access the outage reporting tool. This is impacting our month-end close.",system_access
+"Hello Market Ops team, Can you explain line item 1250 on invoice INV-268128? Ohio Valley Generation was charged $19.08 for transmission enhancement and we cannot trace it. This is impacting our month-end close.",billing_invoice
+We have not received the weekly billing statement for the week ending 2026-04-28. Our AP team needs invoice INV-280793 to process payment. Please advise.,billing_invoice
+"Hi, We received a collateral call for Allegheny Peak Energy of $673,000.39 on 2026-08-14. Please explain how the credit requirement was calculated. Please advise.",credit_collateral
+"Following up on our call, We were notified that Northern Neck Electric Coop is approaching its credit limit of $906,000.19. Can virtual bidding screening be relaxed while we post cash? Appreciate a quick response.",credit_collateral
+"Good morning, We have not received the weekly billing statement for the week ending 2026-06-03. Our AP team needs invoice INV-650166 to process payment. Let us know if you need more data.",billing_invoice
+"Invoice INV-837010 for February for Piedmont Solar Holdings shows a total of $270.69, which does not match the sum of the billing line items. Please send a corrected invoice. This is impacting our month-end close.",billing_invoice
+"To whom it may concern, We need to update the economic maximum for Unit 2 to 198 MW starting 2026-02-13, but the parameter-limited schedule will not save. Let us know if you need more data.",bid_offer_submission
+"Hello Market Ops team, We received a collateral call for Blue Ridge Power LLC of $680,000.28 on 2026-01-05. Please explain how the credit requirement was calculated. Let us know if you need more data.",credit_collateral
+"Following up on our call, We need to extend the planned outage for Battery Block A from 2026-08-03 by five days because of turbine inspection findings. Kind regards.",outage_reporting
+"Hello Market Ops team, Our maintenance outage request for Battery Block A on 2026-04-04 was denied for reliability reasons; can we reschedule? Appreciate a quick response.",outage_reporting
+"Hello Market Ops team, Please grant M. Alvarez read access to the billing and settlement reports for Lakeshore Municipal Utility; the access request has been pending since 2026-04-20.",system_access
+"Following up on our call, We are seeing HTTP 503 errors from the data miner API when pulling LMP data for AEP ZONE; is there an outage? Appreciate a quick response.",system_access
+"Team, Our day-ahead offer for CT-3 was rejected at the 2026-09-15 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Please advise.",bid_offer_submission
+"To whom it may concern, The real-time offer update for CT-3 for HE5 on 2026-07-23 did not take effect; the unit was still dispatched on the old curve.",bid_offer_submission
+"To whom it may concern, A capacity performance penalty of $364,000.46 was assessed to Piedmont Solar Holdings for the event on 2026-09-22; we believe Battery Block A was on an approved outage. Let us know if you need more data.",capacity_market
+"Good morning, Blue Ridge Power LLC needs to confirm the capacity performance commitment of Solar Array 4 for the June delivery period; our installed capacity value appears reduced by 593 MW. Let us know if you need more data.",capacity_market
+Our letter of credit for $300.47 expires on 2026-03-06. What is the process to submit a replacement without breaching the credit limit? This is impacting our month-end close.,credit_collateral
+"Following up on our call, We need to extend the planned outage for Battery Block A from 2026-09-28 by five days because of turbine inspection findings. Let us know if you need more data.",outage_reporting
+"Good morning, Our make-whole payment for Battery Block A for operating day 2026-08-25 was not credited. The unit was dispatched by PJM above its economic minimum from HE22 to HE19. Please advise.",settlement_dispute
+"Following up on our call, Chesapeake Storage Co accidentally submitted an offer curve with a $497.63/MWh price cap for Unit 1. Can the offer be corrected before the day-ahead market clears?",bid_offer_submission
+"Hello Market Ops team, Load reconciliation for May shows 1436 MWh unaccounted for at COMED HUB; we suspect a duplicated meter channel in the data submission.",meter_data_correction
+"Team, Our day-ahead offer for CT-3 was rejected at the 2026-01-04 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Let us know if you need more data.",bid_offer_submission
+"Team, We are disputing the real-time energy settlement for Lakeshore Municipal Utility at EASTERN HUB on 2026-05-10 HE7. Our shadow settlement shows a variance of $805,000.59 versus the posted charge. Thanks.",settlement_dispute
+"Team, We want to submit a sell offer for Solar Array 4 in the upcoming Base Residual Auction but the unforced capacity value is not available in the capacity system.",capacity_market
+"Urgent: The balancing operating reserve credit for Battery Block A on 2026-02-27 looks wrong; we expected roughly $418,000.04 but received nothing. Requesting a settlement review. Let us know if you need more data.",settlement_dispute
+"To whom it may concern, Load reconciliation for June shows 4627 MWh unaccounted for at DOM ZONE; we suspect a duplicated meter channel in the data submission.",meter_data_correction
+"Hello Market Ops team, Submitting corrected interval meter values for Chesapeake Storage Co; the original upload on 2026-03-23 had HE24 through HE4 zeroed out due to an RTU communication failure. Appreciate a quick response.",meter_data_correction
+"Hello Market Ops team, Delmarva Demand Response reports a partial derate of 278 MW on Unit 1 starting HE5 on 2026-01-12 due to high ambient temperature. Appreciate a quick response.",outage_reporting
+"Good morning, Payment for invoice INV-349468 was wired on 2026-09-08 but our account still shows $698,000.73 outstanding. Appreciate a quick response.",billing_invoice
+"Team, Our ELCC class rating for Unit 2 changed and reduced our accredited capacity by 26%. Where is the methodology documented?",capacity_market
+"Hello Market Ops team, Blue Ridge Power LLC accidentally submitted an offer curve with a $88.30/MWh price cap for Battery Block A. Can the offer be corrected before the day-ahead market clears? Kind regards.",bid_offer_submission
+Urgent: Submitting corrected interval meter values for Great Lakes Trading LP; the original upload on 2026-08-05 had HE4 through HE23 zeroed out due to an RTU communication failure. Kind regards.,meter_data_correction
+"Good morning, The meter correction window for 2026-02-15 is closing. Lakeshore Municipal Utility needs to replace estimated load values with actuals (4733 MWh total). Appreciate a quick response.",meter_data_correction
+Urgent: Requesting a capacity transfer of 634 MW from Unit 1 to a replacement resource for the remainder of the delivery year. Please advise.,capacity_market
+"Hi, Chesapeake Storage Co needs to confirm the capacity performance commitment of Solar Array 4 for the June delivery period; our installed capacity value appears reduced by 233 MW. Appreciate a quick response.",capacity_market
+"Hello Market Ops team, Allegheny Peak Energy wants to cover a capacity shortfall of 519 MW through a bilateral transaction; how do we register it before the deadline on 2026-04-27? Thanks.",capacity_market
+"Hi, Northern Neck Electric Coop would like to increase its unsecured credit allowance; attached are our latest audited financials. Thanks.",credit_collateral
+Urgent: Our make-whole payment for Unit 2 for operating day 2026-04-27 was not credited. The unit was dispatched by PJM above its economic minimum from HE7 to HE2. Kind regards.,settlement_dispute
+"Following up on our call, Ohio Valley Generation would like to increase its unsecured credit allowance; attached are our latest audited financials. Kind regards.",credit_collateral
+"Hi, Formal dispute: day-ahead congestion charges for Piedmont Solar Holdings on 2026-01-09 were calculated using the wrong LMP at PECO ZONE. Impact is $458,000.42.",settlement_dispute
+"Following up on our call, We received a collateral call for Ohio Valley Generation of $468,000.90 on 2026-06-04. Please explain how the credit requirement was calculated.",credit_collateral
+"Hi, Our API client certificate for the settlements data feed expired on 2026-08-12 and all automated downloads are failing with 401 errors. This is impacting our month-end close.",system_access
+"Following up on our call, Unit 2 tripped at HE3 on 2026-05-15 due to a transformer fault at EASTERN HUB; we have submitted a forced outage ticket for 554 MW. This is impacting our month-end close.",outage_reporting
+"To whom it may concern, The meter correction window for 2026-05-20 is closing. Tri-State Wind Partners needs to replace estimated load values with actuals (8467 MWh total). Let us know if you need more data.",meter_data_correction
+"Hello Market Ops team, Lakeshore Municipal Utility wants to cover a capacity shortfall of 9 MW through a bilateral transaction; how do we register it before the deadline on 2026-09-12? Please advise.",capacity_market
+"Good morning, We need to extend the planned outage for Solar Array 4 from 2026-01-01 by five days because of turbine inspection findings. Please advise.",outage_reporting
+"Hello Market Ops team, Load reconciliation for March shows 6939 MWh unaccounted for at HARMONY SOLAR 34KV; we suspect a duplicated meter channel in the data submission. Kind regards.",meter_data_correction
+"Good morning, Keystone Renewables Inc wants to cover a capacity shortfall of 495 MW through a bilateral transaction; how do we register it before the deadline on 2026-09-24? Let us know if you need more data.",capacity_market
+"Urgent: Invoice INV-929718 for April for Allegheny Peak Energy shows a total of $618,000.08, which does not match the sum of the billing line items. Please send a corrected invoice.",billing_invoice
+"To whom it may concern, We have not received the weekly billing statement for the week ending 2026-07-12. Our AP team needs invoice INV-477832 to process payment. Thanks.",billing_invoice
+"Hello Market Ops team, Piedmont Solar Holdings accidentally submitted an offer curve with a $1122.42/MWh price cap for Solar Array 4. Can the offer be corrected before the day-ahead market clears?",bid_offer_submission
+"Hi, Formal dispute: day-ahead congestion charges for Allegheny Peak Energy on 2026-08-02 were calculated using the wrong LMP at WESTFALL 230KV GEN1. Impact is $45.05. Kind regards.",settlement_dispute
+"Team, Chesapeake Storage Co would like to increase its unsecured credit allowance; attached are our latest audited financials. Appreciate a quick response.",credit_collateral
+"Hello Market Ops team, Markets Gateway did not accept our virtual bids at WESTERN HUB for 2026-06-21; the upload file with 60 MW of INCs returned a schema error. Let us know if you need more data.",bid_offer_submission
+"Hello Market Ops team, Our day-ahead offer for Battery Block A was rejected at the 2026-04-16 market close with a validation error on the cost-based schedule. We could not resubmit before the deadline. Thanks.",bid_offer_submission
+"Team, Can you explain line item 1250 on invoice INV-668663? Allegheny Peak Energy was charged $209.46 for transmission enhancement and we cannot trace it. This is impacting our month-end close.",billing_invoice

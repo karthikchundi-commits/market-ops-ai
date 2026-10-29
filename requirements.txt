@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+transformers>=4.44
+datasets
+accelerate
+evaluate
+scikit-learn
+matplotlib
+pandas
+sentence-transformers
+faiss-cpu
+pypdf
+requests
+fastapi
+uvicorn[standard]
+streamlit
+anthropic
