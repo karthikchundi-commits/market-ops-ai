@@ -22,6 +22,7 @@ const sec = (ms) => `${(ms / 1000).toFixed(1)} s`;
 const CONTENT_W = 9026; // A4 width 11906 - 2 x 1440 margins (DXA)
 const MAX_PX = 600;
 const FONT = "Calibri";
+const border = { style: BorderStyle.SINGLE, size: 4, color: "A6A6A6" };
 const ACCENT = "1F4E79";
 
 const p = (text, opts = {}) => new Paragraph({ spacing: { after: 120 }, ...opts, children: runs(text) });
@@ -46,6 +47,16 @@ const quote = (t) => new Paragraph({
   children: [new TextRun({ text: t, italics: true, size: 20, color: "333333" })],
 });
 
+// Prefer screenshots captured in the lab (docs/screenshots/lab/<name>) over local ones.
+const LAB = `${SHOTS}/lab`;
+const shotPath = (name) => (fs.existsSync(`${LAB}/${name}`) ? `${LAB}/${name}` : `${SHOTS}/${name}`);
+function labFigure(name, caption) {
+  if (fs.existsSync(`${LAB}/${name}`)) return figure(`${LAB}/${name}`, caption, 560);
+  return [new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 120, after: 240 },
+    border: { top: border, bottom: border, left: border, right: border },
+    children: [new TextRun({ text: `[Lab screenshot ${name} — ${caption}]`, italics: true, color: "C00000" })] })];
+}
+
 let figNo = 0;
 function figure(file, caption, maxPx = MAX_PX) {
   const buf = fs.readFileSync(file);
@@ -68,7 +79,6 @@ function figure(file, caption, maxPx = MAX_PX) {
   ];
 }
 
-const border = { style: BorderStyle.SINGLE, size: 4, color: "A6A6A6" };
 const borders = { top: border, bottom: border, left: border, right: border };
 function table(header, rows, widths) {
   const total = widths.reduce((a, b) => a + b, 0);
@@ -124,6 +134,25 @@ const children = [
   new TableOfContents("Contents", { hyperlink: true, headingStyleRange: "1-2" }),
   pageBreak(),
 
+  // ---------- Lab execution ----------
+  h1("Lab Execution"),
+  p("The whole project was executed in the BITS virtual lab (Linux VM, CPU only) from the public repository with one script, `scripts/lab_run.sh`. Each step below was run in the lab terminal; the application screenshots in Parts I–III were also captured in the lab."),
+  ...table(["Step", "Command", "Purpose"], [
+    ["1", "`git clone https://github.com/karthikchundi-commits/market-ops-ai.git`", "Get the code"],
+    ["2", "`bash scripts/lab_run.sh setup`", "Create virtualenv, install CPU PyTorch, Transformers, FAISS, FastAPI, Streamlit"],
+    ["3", "`bash scripts/lab_run.sh env`", "Record the lab environment"],
+    ["4", "`bash scripts/lab_run.sh data` / `train`", "Generate the dataset and fine-tune DistilBERT (Part II)"],
+    ["5", "`bash scripts/lab_run.sh index`", "Download the PJM manuals and build the FAISS index (Part III)"],
+    ["6", "`bash scripts/lab_run.sh eval`", "Evaluation used in Part IV"],
+    ["7", "`bash scripts/lab_run.sh serve` / `curl`", "Start the API and UI; call the REST endpoints"],
+  ], [700, 4626, 3700]),
+  ...labFigure("L1_env.png", "Lab environment: user, host, CPU, memory, Python and PyTorch versions"),
+  ...labFigure("L2_data.png", "Synthetic ticket dataset generated in the lab"),
+  ...labFigure("L3_train.png", "Fine-tuning run in the lab: baseline versus fine-tuned accuracy and classification report"),
+  ...labFigure("L4_index.png", "RAG index built in the lab from the PJM manuals"),
+  ...labFigure("L5_eval.png", "Evaluation run in the lab: retrieval hit@k, extraction scores and latency"),
+  pageBreak(),
+
   // ---------- Part I ----------
   h1("I. API-based AI Application (4 marks)"),
   h2("1. Domain and real-world problem"),
@@ -154,12 +183,12 @@ const children = [
   ], [1800, 1000, 6226]),
   h2("6–7. Application and demonstration"),
   p("The application has two layers: a **FastAPI** REST service (`app/api.py`) with OpenAPI/Swagger documentation and request validation, and a **Streamlit** web interface (`app/ui.py`) that calls the API over HTTP. Run `uvicorn app.api:app --port 8000` and `streamlit run app/ui.py`."),
-  ...figure(`${SHOTS}/01_api_docs.png`, "FastAPI service — auto-generated OpenAPI documentation of all endpoints", 560),
-  ...figure(`${SHOTS}/02_api_calls.png`, "Calling the REST API directly — HTTP 200 responses for /health, /classify, /extract and HTTP 422 validation error for an empty ticket", 560),
-  ...figure(`${SHOTS}/03_ui_triage.png`, "End-to-end triage of a settlement-dispute thread — category, queue, summary, extracted fields, draft reply and the manual pages used"),
-  ...figure(`${SHOTS}/04_ui_classify.png`, "Sub-task 1 — classification with the fine-tuned DistilBERT model (top-3 probabilities)"),
-  ...figure(`${SHOTS}/05_ui_summarise.png`, "Sub-task 2 — summarising a meter-correction email thread"),
-  ...figure(`${SHOTS}/06_ui_extract.png`, "Sub-task 3 — market fields (rules) and named entities (BERT-NER)"),
+  ...figure(shotPath("01_api_docs.png"), "FastAPI service — auto-generated OpenAPI documentation of all endpoints", 560),
+  ...figure(shotPath("02_api_calls.png"), "Calling the REST API directly — HTTP 200 responses for /health, /classify, /extract and HTTP 422 validation error for an empty ticket", 560),
+  ...figure(shotPath("03_ui_triage.png"), "End-to-end triage of a settlement-dispute thread — category, queue, summary, extracted fields, draft reply and the manual pages used"),
+  ...figure(shotPath("04_ui_classify.png"), "Sub-task 1 — classification with the fine-tuned DistilBERT model (top-3 probabilities)"),
+  ...figure(shotPath("05_ui_summarise.png"), "Sub-task 2 — summarising a meter-correction email thread"),
+  ...figure(shotPath("06_ui_extract.png"), "Sub-task 3 — market fields (rules) and named entities (BERT-NER)"),
 
   // ---------- Part II ----------
   pageBreak(),
@@ -204,7 +233,7 @@ const children = [
   bullet("**Retrieval:** top-k (default 4) passages for the question."),
   bullet("**Generation:** the passages are numbered and inserted into the prompt with an instruction to answer only from the context, cite passages, and say so when the answer is not present. The last two chat turns are included so follow-up questions work."),
   bullet("**Chatbot interface:** Streamlit chat tab with conversation history and an expandable list of sources (manual, page, similarity score) under each answer."),
-  ...figure(`${SHOTS}/07_ui_rag_chat.png`, "RAG chatbot answering questions from the PJM manuals, with the retrieved sources shown"),
+  ...figure(shotPath("07_ui_rag_chat.png"), "RAG chatbot answering questions from the PJM manuals, with the retrieved sources shown"),
   h2("Retrieval quality"),
   p(`On ${ret.n} hand-written analyst questions with a known governing manual, the correct manual was the top passage for **${pct(ret["hit@1"])}** of questions (hit@1) and appeared in the top 4 for **${pct(ret["hit@4"])}** (hit@4).`),
   ...table(["Question", "Expected", "Top-4 retrieved (manual, page)"],
