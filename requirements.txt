@@ -14,4 +14,3 @@ requests
 fastapi
 uvicorn[standard]
 streamlit
-anthropic

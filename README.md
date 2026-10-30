@@ -21,9 +21,7 @@ Streamlit UI (app/ui.py) ──HTTP──► FastAPI (app/api.py) ──► app/
                                                            ├─ fine-tuned DistilBERT  (models/ticket-classifier)
                                                            ├─ DistilBART summariser
                                                            ├─ BERT-NER + regex rules
-                                                           └─ FAISS retriever (rag/index) ─► LLM (app/llm.py)
-                                                                                              ├─ Claude API (if ANTHROPIC_API_KEY)
-                                                                                              └─ Qwen2.5-1.5B-Instruct on CPU (default)
+                                                           └─ FAISS retriever (rag/index) ─► Qwen2.5-1.5B-Instruct on CPU (app/llm.py)
 ```
 
 ## Setup
@@ -44,7 +42,7 @@ streamlit run app/ui.py                  # UI at http://localhost:8501
 python scripts/evaluate.py               # Part IV evaluation -> reports/evaluation.json
 ```
 
-To use Claude as the generator, set `ANTHROPIC_API_KEY`. To force a backend, set `LLM_BACKEND=claude` or `LLM_BACKEND=local`. To use a different local model, set `LOCAL_LLM=<hf model id>`.
+To use a different local model, set `LOCAL_LLM=<hf model id>` (e.g. `Qwen/Qwen2.5-0.5B-Instruct` on machines with less than 14 GB RAM).
 
 ## Data
 

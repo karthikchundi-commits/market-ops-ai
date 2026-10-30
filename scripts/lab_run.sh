@@ -35,7 +35,7 @@ env_info() {
   echo "CPUs: $(nproc)"; free -h | head -2
   $PY --version
   $PY -c "import torch; print('torch', torch.__version__, '| CUDA available:', torch.cuda.is_available())"
-  echo "LOCAL_LLM=$LOCAL_LLM  LLM_BACKEND=${LLM_BACKEND:-auto}"
+  echo "LOCAL_LLM=$LOCAL_LLM"
 }
 
 data()  { banner "PART II - DATASET";     $PY data/generate_tickets.py 2>&1 | tee logs/data.log; }

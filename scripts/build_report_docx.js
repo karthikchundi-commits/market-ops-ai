@@ -120,7 +120,7 @@ const children = [
     ["Domain", "Energy — wholesale electricity market operations (ISO/RTO participant support)"],
     ["Category", "Natural Language Processing (NLP)"],
     ["Sub-tasks", "Text classification · Summarisation · Named-entity / field extraction · Retrieval-augmented question answering"],
-    ["Platform", "Hugging Face Transformers + Sentence-Transformers + FAISS; FastAPI service; Streamlit UI; optional Anthropic Claude API"],
+    ["Platform", "Hugging Face Transformers + Sentence-Transformers + FAISS; FastAPI service; Streamlit UI"],
     ["Code", "`market-ops-ai/` (README.md has setup and run steps)"],
   ], [2400, 6626]),
   h2("Group Member Names with Contribution"),
@@ -164,12 +164,12 @@ const children = [
     ["1", "Text classification", "Routes the ticket to one of 8 queues (settlement disputes, meter data, offers, billing, credit, capacity, system access, outages)", "`distilbert-base-uncased` **fine-tuned** (Part II)"],
     ["2", "Abstractive summarisation", "Condenses long email threads into 2–3 sentences for the analyst", "`sshleifer/distilbart-cnn-12-6`"],
     ["3", "Named-entity & field extraction", "Pulls out participant, people, dates, hour-ending, $ amounts, MW/MWh, invoice/ticket IDs, pricing nodes", "`dslim/bert-base-NER` + market-specific rules"],
-    ["4", "Retrieval-augmented QA", "Finds the governing manual sections and answers questions / drafts the reply with citations", "`all-MiniLM-L6-v2` + FAISS → `Qwen2.5-1.5B-Instruct` (or Claude via API)"],
+    ["4", "Retrieval-augmented QA", "Finds the governing manual sections and answers questions / drafts the reply with citations", "`all-MiniLM-L6-v2` + FAISS → `Qwen2.5-1.5B-Instruct`"],
   ], [500, 2000, 4026, 2500]),
   h2("4. Model selection rationale"),
   bullet("**Small Language Models (SLMs) for the deterministic tasks.** DistilBERT (66M params), DistilBART (306M) and BERT-NER (108M) run on a laptop CPU in milliseconds to a few seconds, which matters for a help desk that processes every incoming ticket."),
   bullet("**Fine-tuning instead of zero-shot for routing.** Queue names are organisation-specific, so a model trained on labelled tickets beats generic zero-shot classification and a TF-IDF baseline (Part II)."),
-  bullet("**Small instruction-tuned LLM for generation.** `Qwen2.5-1.5B-Instruct` runs fully offline on CPU, so confidential ticket text never leaves the machine. The generator is pluggable: setting `ANTHROPIC_API_KEY` switches it to Claude (`claude-opus-5-5`) through the Anthropic API for higher answer quality."),
+  bullet("**Small instruction-tuned LLM for generation.** `Qwen2.5-1.5B-Instruct` runs fully offline on CPU, so confidential ticket text never leaves the machine."),
   bullet("**Compact embedding model for retrieval.** MiniLM-L6 (384-dimensional vectors) indexes about 2,600 manual chunks in under two minutes on CPU; retrieval takes about 20 ms per query."),
   h2("5. Cohesive design"),
   p("All sub-tasks are chained by the `POST /triage` endpoint: **classify → summarise → extract → retrieve → generate**. The predicted category and the summary form the retrieval query, the extracted fields are passed to the generator, and the generator writes a draft reply that cites the retrieved manual pages. Each sub-task is also exposed as its own endpoint so it can be reused by other systems (e.g. a ticketing tool that only needs routing)."),
@@ -311,7 +311,6 @@ const children = [
   bullet("RAG index: `python rag/build_index.py`"),
   bullet("Run API: `uvicorn app.api:app --port 8000`; run UI: `streamlit run app/ui.py`"),
   bullet("Evaluation: `python scripts/evaluate.py` → `reports/evaluation.json`"),
-  bullet("Optional Claude generator: set `ANTHROPIC_API_KEY` (or `LLM_BACKEND=claude`)"),
 ];
 
 const doc = new Document({
