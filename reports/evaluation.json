@@ -1,6 +1,6 @@
 {
   "llm_backend": "local",
-  "llm_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "llm_model": "Qwen/Qwen2.5-0.5B-Instruct",
   "retrieval": {
     "n": 12,
     "hit@1": 0.9166666666666666,
@@ -241,7 +241,7 @@
   "rag_answers": [
     {
       "question": "How is balancing operating reserve credit calculated for a generator dispatched in real time?",
-      "answer": "Balancing operating reserve credits for a generator dispatched in real time are calculated based on the difference between the actual real-time energy revenue and the day-ahead scheduled MWh multiplied by the five-minute real-time LMP at the generator's bus. Additionally, the reserve revenue is determined by subtracting the Market Revenue Neutrality Offset for those same products, plus the reactive services make-whole credits over the applicable real-time settlement intervals.",
+      "answer": "For generators dispatched in real time, the Balancing Operating Reserve (BOR) credits are calculated based on the following criteria:\n\n1. **Resource Commitment**: The resource is committed to operate in Real-time to augment the physical resources committed in the Day-ahead Energy Market to meet the forecasted Real-time load plus the Operating Reserve Requirement.\n\n2. **Balancing Operating Reserve Charges Allocation**:\n   - If the resource operates according to the on and off times requested by PJM, and units tripping during pool-scheduled periods of operation retain their eligibility up through the five-minute interval in which the unit trips.\n   - If the resource is scheduled by PJM during its Reliability Analysis not to account for anticipated deviations between Day-ahead schedules and Real-time conditions but instead provides additional reliability margin, Balancing Operating Reserve charges must be allocated to Real-time load plus exports.\n\n3. **Real-Time LMP Calculation**:\n   - For resources called during a Real-time Market Suspension, the applicable cost offer will be used for all compensation.\n   - For resources called during a Real-time Market Suspension greater than 24 consecutive hours, the applicable cost offer will be used for all compensation.\n\n4. **Real-Time Energy Revenue Calculation**:\n   - Real-Time Energy Revenue is calculated as the five-minute revenue data for settlement MW value minus the day-ahead scheduled MWh multiplied by the five-minute real-time LMP at the generator's bus plus the sum of the Day-ahead Revenues as calculated above summed over the applicable Real-time Settlement Intervals.\n\n5. **Reserve Revenue Calculation**:\n   - Reserve Revenue is calculated as the sum of revenues above cost for Synchronized Reserves, Non-Synchronized Reserves, Secondary Reserves, minus the Market Revenue Neutrality Offset for those same products, plus the Reactive Services make whole credits over the applicable Real-time Settlement Intervals.\n\n6. **Cost Offer Calculation**:\n   - Cost offers are determined based on the dispatcher generation scheduling and operations logs, resource offer data",
       "cited": false,
       "sources": [
         "PJM Manual 28 - Operating Agreement Accounting p.45",
@@ -252,7 +252,7 @@
     },
     {
       "question": "What is the deadline for submitting a billing dispute?",
-      "answer": "The deadline for submitting a billing dispute is specified in the PJM Manual 29 - Billing, page 11, where it states: \"Adjustments may be made within this two (2) year timeframe, in accordance with PJM Operating Agreement, section 15.6.\" This means that adjustments to billing line items can be made up to two years after the original settlement on a billing statement.",
+      "answer": "The deadline for submitting a billing dispute is five business days from the date on which PJM Settlement receives all data necessary to calculate the services included in the weekly billing statement for such Market Suspension.",
       "cited": false,
       "sources": [
         "PJM Manual 29 - Billing p.11",
@@ -263,7 +263,7 @@
     },
     {
       "question": "How are meter data corrections handled in the reconciliation process?",
-      "answer": "Meter data corrections are handled through the following steps:\n\n1. **Reconciliation**: At the end of each month, metering errors and corrections are reconciled.\n\n2. **Correction Calculation**: The monthly meter error correction charge (positive or negative deviation in energy amounts) is calculated by multiplying the deviation by the load-weighted average real-time Locational Marginal Price (LMP).\n\n3. **Adjustment**: If adjustments can be made to hourly tie readings to compensate for the error, these adjustments are made by the PJM Members involved, provided they provide corrected information according to PJM's accounting deadlines.\n\n4. **Accounting for Errors**: If PJM has already completed the accounting for the operating day when the error was identified, no further adjustments can be made unless agreed upon by both parties.\n\nThis process ensures accurate recording of energy flows and compensates for any discrepancies in metered data.",
+      "answer": "In the reconciliation process, meter data corrections are handled through a series of steps:\n\n1. **Adjustment of Hourly Meter Readings**: When an error occurs in metered interchange between a PJM Member and an entity in another Control Area, the error is corrected by adjusting the hourly meter readings.\n\n2. **Correction at the End of the Billing Cycle**: If this is not practical, the error is accounted for by a correction at the end of the billing cycle.\n\n3. **Adjustment of Actual Interchange**: The PJM Member with ties or Dynamic Transfers with such other Control Area experiencing the error accounts for the full amount of the discrepancy and applies an appropriate debit or credit proportionately among all LSEs based on load (de-rated for transmission losses).\n\n4. **Verification and Reconciliation**: PJM verifies and reconciles the meter correction data to ensure consistency.\n\n5. **Adjustment for Meter Error**: If the PJM Members are willing to adjust hourly tie readings to compensate for the error, they make adjustments in tie readings to correct for the meter error.\n\n6. **No Adjustment if Completed Accounting**: If PJM completes the accounting for the operating day, no adjustment can be made; otherwise, adjustments may be made if PJM has completed the accounting for the previous month's billing period.\n\nThis process ensures that metering errors are accurately recorded and corrected, maintaining accurate records of energy flows across control areas.",
       "cited": false,
       "sources": [
         "PJM Manual 28 - Operating Agreement Accounting p.123",
@@ -274,7 +274,7 @@
     },
     {
       "question": "What happens if a capacity resource does not perform during a performance assessment interval?",
-      "answer": "If a capacity resource fails to perform during a performance assessment interval, it is subject to a Non-Performance Charge. This charge applies to both Capacity Performance Resource commitments and Price Responsive Demand commitments. The Non-Performance Assessment compares each Capacity Resource's Expected Performance against its Actual Performance for each Performance Assessment Interval.",
+      "answer": "If a capacity resource fails to perform during a performance assessment interval, it is subject to a Non-Performance Assessment charge. This assessment compares the resource's expected performance against its actual performance for each performance assessment interval. Performance Assessment Interval refers to each real-time settlement interval for which an Emergency Action as defined in the OATT has been established.",
       "cited": false,
       "sources": [
         "PJM Manual 18 - Capacity Market p.245",
@@ -285,7 +285,7 @@
     },
     {
       "question": "When is the day-ahead energy market offer submission deadline?",
-      "answer": "The day-ahead energy market offer submission deadline is at 11:00 AM on the same day.",
+      "answer": "The day-ahead energy market offer submission deadline is 11:00 AM on the day before the operating day.",
       "cited": false,
       "sources": [
         "PJM Manual 11 - Energy & Ancillary Services Market Operations p.250",
@@ -379,9 +379,9 @@
         ]
       }
     },
-    "draft_reply": "Dear Blue Ridge Power,\n\nThank you for your dispute regarding the balancing operating reserve credit for Unit 2 of Westfall combustion turbine.\n\nThis matter has been assigned to the Reserves Team for investigation. We have reviewed the relevant sections of the PJM Manual and understand that the discrepancy arises because the current manual does not explicitly account for the use of actual five-minute interval real-time outputs for combustion turbines under certain conditions.\n\nTo resolve this issue, we need more details about the specific circumstances leading to the higher-than-normal costs incurred by Unit 2 during the specified hours. This includes:\n\n1. Detailed records of the dispatch decisions made by PJM for Unit 2.\n2. Information on the historical performance data of Unit 2's real-time output compared to its economic minimum.\n3. Any documentation related to the pricing mechanisms used for the balancing operation.\n\nOnce these additional details are provided, we will proceed with resolving the dispute according to the appropriate procedures outlined in the manuals.\n\nPlease provide the requested information as soon as possible so we can address this promptly.\n\nBest regards,\n[Your Name]\nAnalyst, Electricity Market Operations",
+    "draft_reply": "**First Response**\n\nSubject: Re: Blue Ridge Power's Dispute with Balancing Operating Reserve Credit for Unit 2\n\nDear [Market Participant],\n\nThank you for reaching out regarding your dispute with the balancing operating reserve credit for Unit 2. We understand the importance of resolving such issues promptly.\n\nWe acknowledge that the issue involves a discrepancy between the balance sheet records and the operational data provided by PJM. To address this, we have assigned the ticket to our team responsible for managing these types of disputes. Our team has reviewed the relevant documentation and is currently working on clarifying the discrepancies and providing a resolution plan.\n\nPlease provide any additional information or details that might be necessary to expedite the resolution process. If there are any specific questions or concerns related to this matter, please do not hesitate to reach out.\n\nThank you for your cooperation and understanding.\n\nBest regards,\n\nSusan Kenney  \nTeam Owner  \nElectricity Market Operations  \nPJM Energy",
     "backend": "local",
-    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
     "sources": [
       {
         "source": "PJM Manual 28 - Operating Agreement Accounting",
@@ -402,28 +402,28 @@
   },
   "latency_ms": {
     "classify": {
-      "median": 32,
-      "max": 90
+      "median": 212,
+      "max": 499
     },
     "summarize": {
-      "median": 3001,
-      "max": 3883
+      "median": 13851,
+      "max": 16988
     },
     "extract": {
-      "median": 67,
-      "max": 282
+      "median": 370,
+      "max": 1921
     },
     "retrieve": {
-      "median": 22,
-      "max": 94
+      "median": 57,
+      "max": 255
     },
     "rag_answer": {
-      "median": 32978,
-      "max": 65388
+      "median": 38678,
+      "max": 136304
     },
     "triage_end_to_end": {
-      "median": 85587,
-      "max": 85587
+      "median": 83779,
+      "max": 83779
     }
   }
 }

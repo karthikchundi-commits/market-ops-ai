@@ -9,4 +9,5 @@ api.log
 ui.log
 reports_*.log
 docs/*.docx
+docs/*.pdf
 node_modules/
